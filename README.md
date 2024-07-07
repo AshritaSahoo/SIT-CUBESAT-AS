@@ -80,8 +80,7 @@ Follow me as we embark on an engaging and enthralling journey to buld a ground s
 
 ![Screenshot_6-7-2024_9507_github com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/9e74f745-aad3-4b78-9719-9f4147df6cbb)
 
-![Screenshot_7-7-2024_75426_github com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/a1e1effb-9a92-49df-8089-266265d5cd9d)
-
+![Screenshot_7-7-2024_75955_github com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/cbf16b72-3e54-4bb6-aeab-4d493f91d241)
 
       
  ## 💡 Arduino(LAB2):
