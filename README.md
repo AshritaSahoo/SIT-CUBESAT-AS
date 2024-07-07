@@ -119,5 +119,20 @@ Follow me as we embark on an engaging and enthralling journey to buld a ground s
    4. Github page creation
    5. Modulation and demodulation
 ## ARDUINO (LAB3):
-1.
-      
+1. Serial monitor print function
+2. OLED print function
+
+# DAY5 (29/06/2024)
+## Python programming
+- Topics covered
+  1. Plotting graphs for FFT and FSK
+  2. Conversion of FSK to ASK
+  3. SNR(Signal to noise ratio)
+  4. Modulation to Demodulation conversion
+
+ ## ARDUINO (LAB4)
+ 1. Humidity and temperature sensor (DHT) using serial monitor
+ 2. Humidity and temperature sensor (DHT) using OLED
+
+# DAY6 (01/07/2024):
+## 
