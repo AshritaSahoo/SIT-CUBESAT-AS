@@ -111,5 +111,13 @@ Follow me as we embark on an engaging and enthralling journey to buld a ground s
      | Resistance in the circuit | 105 Ohms |
 
 # 🌞 DAY4 (28/06/2024):
-
+## Software setup for Python and Github account
+- Topics covered:
+   1. FFT
+   2. LoRa Communication Architecture
+   3. Python software installation
+   4. Github page creation
+   5. Modulation and demodulation
+## ARDUINO (LAB3):
+1.
       
