@@ -1,5 +1,5 @@
-1. Blinking LED
-- Embedded LED:
+- Blinking LED
+ 1. Embedded LED:
 
 #define LED 2
 void setup()
@@ -16,7 +16,7 @@ void loop() {
   delay(1000);                      // wait for a second
 }
 
-- External single LED
+ 2. External single LED
 
 #define LED 18
 void setup()
@@ -34,7 +34,7 @@ void loop() {
 }
 
 
--External multiple LED
+3. External multiple LED
 
 #define LED1 5
 #define LED2 21
