@@ -54,7 +54,7 @@ Follow me as we embark on an engaging and enthralling journey to buld a ground s
 
 - The above picture shows the first dispenser for CubeSats was the Poly-Picosatellite Orbital Deployer (P-POD). It was developed by Cal Poly and San Luis Obispo. 
 
-## Arduino (LAB1):
+## 💡 Arduino (LAB1):
  ### Intro to ESP32
  ### LED BLINKING:
  1. EMBEDDED LED BLINKING
@@ -71,12 +71,28 @@ Follow me as we embark on an engaging and enthralling journey to buld a ground s
    4. Carrier frequency selection
    5. Satellite orbital Fundamentals
    6. LoRa Radio architecture
- ## Arduino(LAB2):
+
+**SCREENSHOTS**
+ 
+![Screenshot_6-7-2024_193157_github com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/b3241261-c8d3-4baa-a545-d6025d4f8aa9)
+
+![Screenshot_6-7-2024_95120_github com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/48737ce6-c15b-4b47-a4f0-5b8680d6b9f1)
+
+![Screenshot_6-7-2024_9507_github com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/9e74f745-aad3-4b78-9719-9f4147df6cbb)
+
+![Screenshot_7-7-2024_75426_github com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/a1e1effb-9a92-49df-8089-266265d5cd9d)
+
+
+      
+ ## 💡 Arduino(LAB2):
   ### Dimming LED using Pulse width modulation
   ### Switching LED on and off using serial monitor
   ### Finding the following from ESP32 and LED datasheet
-       - [ESP 32 DATASHEET](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/Datasheet-ESP32.pdf)
-       - [LED DATASHEET](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/Datasheet-LED-XLMR01DE.pdf)
+  
+   - [ESP 32 DATASHEET](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/Datasheet-ESP32.pdf)
+   - [LED DATASHEET](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/Datasheet-LED-XLMR01DE.pdf)
+
+      1. For LED:
        
       | Parameters | Values |
       | ---------- | ----------------------------------------- |
@@ -86,5 +102,15 @@ Follow me as we embark on an engaging and enthralling journey to buld a ground s
       | Color (RGB) from dominant wavelength | Red |
       | Typical capacitance | 45pF |
       | Operating temperature range | -25 to 50 degree Celcius |
+
+      2. For ESP32:
+
+     | Parametera | Values |
+     | ---------- | ------ |
+     | Maximum output voltage of GPIO pins | 3.3V |
+     | Maximum current that GPIO can source from supply to load | 40mA |
+     | Resistance in the circuit | 105 Ohms |
+
+# 🌞 DAY4 (28/06/2024):
 
       
