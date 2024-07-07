@@ -1,0 +1,99 @@
+1. LoRa sender
+
+#include<SPI.h>
+#include<LoRa.h>
+
+// TINYGS pin definition
+#define DIO0 26
+#define RST  14
+#define NSS  18 
+#define MOSI 27
+#define MISO 19
+#define SCLK 5
+
+int counter = 0;
+
+void setup() {
+  // put your setup code here, to run once:
+ Serial.begin(115200);
+ while(!Serial);
+ Serial.println("LoRa Sender");
+
+ SPI.begin(SCLK,MISO,MOSI,NSS);
+ LoRa.setPins(NSS,RST,DIO0);
+  while(LoRa.begin(4333E6)){
+    Serial.println(".");
+    delay(500);
+  }
+  LoRa.setSyncWord(0xF3);
+  Serial.println("LoRa Initializing OK!");
+}
+
+void loop() {
+  // put your 'main code here, to run repeatedly:
+ Serial.print("Sending packet:");
+ Serial.println(counter);
+ LoRa.beginPacket();
+ LoRa.print("Hi Apurva");
+ LoRa.print(counter);
+ LoRa.endPacket();
+
+ counter++;
+ delay(10000);
+}
+
+2. LoRa receiver
+
+#include<SPI.h>
+#include<LoRa.h>
+#define DIO0 26
+#define RST 14
+#define NSS 18
+#define MOSI 27
+#define MISO 19
+#define CLK 5
+//int counter = 0;
+void setup() {
+  Serial.begin(115200);
+  while(!Serial);
+  Serial.println("LoRa Receiver");
+  // put your setup code here, to run once:
+  SPI.begin(CLK,MISO,MOSI,NSS);
+  LoRa.setPins(NSS,RST,DIO0);
+  LoRa.setSpreadingFactor(6);
+  LoRa.setSignalBandwidth(7.8E3);
+
+  while(!LoRa.begin(433E6)){
+    Serial.println(".");
+    delay(500);
+  }
+LoRa.setSyncWord(0xF3);
+Serial.println("LoRa Initializing OK!");
+}
+
+void loop() {
+  int packetSize=LoRa.parsePacket();
+  if(packetSize){
+    Serial.print("Received packet'");
+    while(LoRa.available()){
+      String LoRaData=LoRa.readString();
+      Serial.print(LoRaData);
+
+    }
+    Serial.print("'with RSSI'");
+    Serial.println(LoRa.packetRssi());
+    Serial.print(" and SNR ");
+    Serial.println(LoRa.packetSnr());
+    
+  }
+  // put your main code here, to run repeatedly:
+ // Serial.print("Sending packet:");
+  //Serial.println(counter);
+  //LoRa.beginPacket();
+  //LoRa.print("hello");
+  //LoRa.print(counter);
+  //LoRa.endPacket();
+  //counter++;
+  //delay(1000);
+
+}
