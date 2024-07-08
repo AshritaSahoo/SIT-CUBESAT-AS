@@ -159,5 +159,19 @@ Follow me as we embark on an engaging and enthralling journey to buld a ground s
   6. Bit Rate
 
  ## 4nec2 (LAB1):
- 
+  1. Dipole in free space
+  2. Loaded dipole in free space
+
+# DAY8 (03/07/2024):
+## Antenna Basics
+- Topics covered
+  1. Radiation mechanism
+  2. Equivalent circuit
+  3. Radiation pattern
+  4. Polarization
+  5. Types of antenna
+  6. Antenna tuning
+## 4nec2 (LAB2):
+1. 
+
  
