@@ -176,6 +176,18 @@ Follow me as we embark on an engaging and enthralling journey to buld a ground s
 2. V dipole simulation
 
 # DAY9 (04/07/2024):
-## Antenna
+## Antenna Design
+- Topics covered
+  1. VSWR
+  2. Find the ideal length of the antenna with angle 110 degree angle 433Hz
+  3. Impedance
+  4. Voltage
+  5. Current
+ ## Antenna design Practical
+  1. Board preparation
+  2. Antenna tunning
 
+# DAY10 (05/07/2024):
+## Antenna making
+## Antenna 
  
