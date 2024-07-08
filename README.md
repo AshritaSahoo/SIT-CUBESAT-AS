@@ -140,5 +140,9 @@ Follow me as we embark on an engaging and enthralling journey to buld a ground s
   1. Introduction to CMOS VLSI design
   2. Anatomy of ELectronic System: Mobile Phone
   3. Capacitive MEMS microphone
-  4. PiezoeleIMU/ctric MEMS microphone
-  5. 
+  4. Piezoelectric MEMS microphone
+  5. IMU and gyroscope
+  6. AFE
+  7. Custom (Analog/Digital) IC design flow
+
+ 
