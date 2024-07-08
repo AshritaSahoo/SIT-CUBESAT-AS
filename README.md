@@ -144,5 +144,20 @@ Follow me as we embark on an engaging and enthralling journey to buld a ground s
   5. IMU and gyroscope
   6. AFE
   7. Custom (Analog/Digital) IC design flow
+## ARDUINO (LAB5):
+1. LoRa Sender
+2. LoRa Receiver
 
+# DAY7 (02/07/2024):
+## LoRa Basics
+- Topics Covered
+  1. Spread-Spectrum Modem
+  2. LoRa Basics
+  3. Spreading factor
+  4. BW
+  5. SNR
+  6. Bit Rate
+
+ ## 4nec2 (LAB1):
+ 
  
