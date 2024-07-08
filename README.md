@@ -135,4 +135,10 @@ Follow me as we embark on an engaging and enthralling journey to buld a ground s
  2. Humidity and temperature sensor (DHT) using OLED
 
 # DAY6 (01/07/2024):
-## 
+## CMOS VLSI design
+- Topics covered
+  1. Introduction to CMOS VLSI design
+  2. Anatomy of ELectronic System: Mobile Phone
+  3. Capacitive MEMS microphone
+  4. PiezoeleIMU/ctric MEMS microphone
+  5. 
