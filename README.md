@@ -172,6 +172,10 @@ Follow me as we embark on an engaging and enthralling journey to buld a ground s
   5. Types of antenna
   6. Antenna tuning
 ## 4nec2 (LAB2):
-1. 
+1. Inverted V over ground
+2. V dipole simulation
+
+# DAY9 (04/07/2024):
+## Antenna
 
  
