@@ -1,9 +1,9 @@
 # 🛰️ SIT-CUBESAT-AS
 This is a repository for Summer Internship 2024 on Cubesat and satellite design.
 We're learning about satellite communication.
-Follow me as we embark on an engaging and enthralling journey to buld a ground station to receive satellite signals.
+Follow me as we embark on an engaging and enthralling journey to build a ground station to receive satellite signals.
 
-# 🌞 DAY1 (25/06/2024):
+# Introduction:
 ## 🗣️ AN ENLIGHTENING TALK BY Dr. Chinmoy Saha 
  - He is a Professor at the Department of Avionics in the Indian Institute of Space Science and Technology.
  - The Talk was about Small form factor satellites and satellite communication.
@@ -13,11 +13,12 @@ Follow me as we embark on an engaging and enthralling journey to buld a ground s
    secondary payloads on a launch vehicle. They’re employed for various purposes, including Earth observation, 
    testing new communications technology, and performing miniature experiments
    SCREENSHOTS:
-   ![Screenshot_6-7-2024_85621_github com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/e8049bbb-68ae-400d-9bed-5f9c0d32875d)
-- The above picture shows CUBESATS of 1U and 3U
-  ![Screenshot_6-7-2024_84257_](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/55023e71-f234-49d3-b09a-2bad5ca74493)
+  ![Screenshot_6-7-2024_85621_github com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/e8049bbb-68ae-400d-9bed-5f9c0d32875d)
 
  ![Screenshot_6-7-2024_8451_](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/ac83ba6d-b4c8-46a3-9210-fac6f9cbe2b6)
+
+ ![cubesat](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/116be5ff-a8a5-4448-9efc-a251865767d0)
+
 
 ## 🗣️ AN ADVENTUROUS JOURNEY WITH Harrish Kesavan:
 - He is a core team member of To Space.
@@ -32,19 +33,65 @@ Follow me as we embark on an engaging and enthralling journey to buld a ground s
 
   ![Screenshot_6-7-2024_91325_www linkedin com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/35ab75e4-1702-4950-8754-2b48848d3548)
 
-![Screenshot_6-7-2024_91447_www linkedin com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/dd135e68-690e-4b68-b4a5-d6d677b8bd51)
-
-# 🌞 DAY2 (26/06/2024):
+# Cubesat Basics:
 ## 🧑‍🚀 Introduction to CUBESAT : Basic concepts and processes
-- CubeSats began as a collaborative effort in 1999 between Jordi Puig-Suari, a professor at California Polytechnic 
-  State University (Cal Poly), and Bob Twiggs, a professor at Stanford University’s Space Systems Development 
-  Laboratory (SSDL). The original intent of the project was to provide affordable access to space for the university 
-  science community, and it has successfully done so.
-- Topics covered:
-  1. What is CUBESAT?
-  2. Why CUBESAT?
-  3. CUBESAT Architecture
-  4. RC circuit problems
+- [June 26: Cubesat101](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/lectures/2024-0625-CubeSat101.pdf)
+- What is a cubesat?
+
+   A CubeSat is a class of small satellite with a form factor of 10 cm (3.9 in) cubes. These tiny satellites have a 
+   mass of no more than 2 kg (4.4 lb) per unit and often use commercial off-the-shelf (COTS) components for their 
+   electronics and structure. CubeSats are deployed into orbit from the International Space Station or launched as 
+   secondary payloads on a launch vehicle. They’re employed for various purposes, including Earth observation, 
+   testing new communications technology, and performing miniature experiments
+  
+- Why CUBESAT?
+  
+   CubeSats began as a collaborative effort in 1999 between Jordi Puig-Suari, a professor at California Polytechnic 
+   State University (Cal Poly), and Bob Twiggs, a professor at Stanford University’s Space Systems Development 
+   Laboratory (SSDL). The original intent of the project was to provide affordable access to space for the university 
+   science community, and it has successfully done so.
+
+- Cubesat making procedure
+   
+   1. Concept Development
+   What do you want your CubeSat to do? CubeSat developer will take anywhere from 1 to 6 months to plan the goals and  part of this conceptual development 
+   time will be spent in search of possible partners and collaborators who may have goals similar to your own. 
+  
+   2. Securing Funding
+    Do not accept a launch opportunity until you are confident you can deliver your CubeSat on time. The amount of funding you’re going to need to budget for depends     on a number of different factors, the most important of which include the mission’s complexity, the experience level of your personnel, the project’s duration,       and whether you need any specialized hardware. 
+
+   3. Merit and Feasibility Reviews
+      Merit review will assess the goals and objectives of the mission to determine the quality of its investigation in regard to science, education, and/or         
+      technology. It will also determine if the overall investigation supports one or more of the science, education, technology, and/or operations goals or 
+      objectives of the NASA Strategic Plan. Feasibility review will judge whether your CubeSat’s mission is achievable with regard to “technical implementation,”  
+      including feasibility, resiliency, risk, and the probability of success.
+
+   4 CubeSat Design
+  
+
+   5 Development and Submittal of Proposal in Response to CSLI Call
+
+   6 Selection and Manifesting
+
+   7 Mission Coordination
+
+   8 Regulatory Licensing
+
+   9 Flight Specific Documentation Development and Submittal
+
+   10 Ground Station Design, Development, and Testing
+
+   11 CubeSat Hardware Fabrication and Testing
+
+   12 Mission Readiness Reviews
+
+   13 CubeSat-to-Dispenser Integration and Testing
+
+   14 Dispenser-to-Launch Vehicle Integration
+
+   15 Launch
+
+   16 Mission Operation
 
   **SCREENSHOTS**
    
@@ -61,7 +108,7 @@ Follow me as we embark on an engaging and enthralling journey to buld a ground s
  2. EXTERNAL LED (1) BLINKING
  3. EXTERNAL LED (MULTIPLE) BLINKING
 
-# 🌞 DAY3 (27/06/2024):
+# Satellite communication:
 ## 📻 CUBESAT COMMUNICATION
 - In this project we use the LoRa Transceiver module for satellite communication with the help of a ESP32 board.
 - Topics covered:
