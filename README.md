@@ -67,6 +67,12 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
       including feasibility, resiliency, risk, and the probability of success.
 
    4 CubeSat Design
+   You will also need to research which components will work best for your CubeSat 
+system.  most 
+popular components can now be purchased through commercial vendors.many 
+educational organizations still try to build and design as many components as 
+possible in-house in order to enhance the educational experience, as well as to 
+keep costs low
   
 
    5 Development and Submittal of Proposal in Response to CSLI Call
