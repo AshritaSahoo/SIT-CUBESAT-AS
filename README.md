@@ -3,8 +3,12 @@ This is a repository for Summer Internship 2024 on Cubesat and satellite design.
 We're learning about satellite communication.
 Follow me as we embark on an engaging and enthralling journey to build a ground station to receive satellite signals.
 
+# ABSTRACT
+
 # Introduction:
-## 🗣️ AN ENLIGHTENING TALK BY Dr. Chinmoy Saha 
+
+
+# 🗣️ AN ENLIGHTENING TALK BY Dr. Chinmoy Saha 
  - He is a Professor at the Department of Avionics in the Indian Institute of Space Science and Technology.
  - The Talk was about Small form factor satellites and satellite communication.
  - A CubeSat is a class of small satellite with a form factor of 10 cm (3.9 in) cubes. These tiny satellites have a 
@@ -20,7 +24,7 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
  ![cubesat](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/116be5ff-a8a5-4448-9efc-a251865767d0)
 
 
-## 🗣️ AN ADVENTUROUS JOURNEY WITH Harrish Kesavan:
+# 🗣️ AN ADVENTUROUS JOURNEY WITH Harrish Kesavan:
 - He is a core team member of To Space.
 - The talk about Exploring pocket cube satellites gave off small satellites, big impact vibes.
 - A PocketCube is a type of miniaturized satellite designed for space research. These tiny satellites typically have 
@@ -36,6 +40,10 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
 # Cubesat Basics:
 ## 🧑‍🚀 Introduction to CUBESAT : Basic concepts and processes
 - [June 26: Cubesat101](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/lectures/2024-0625-CubeSat101.pdf)
+
+![csli_compliation_gif](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/3820da19-6765-4852-aaad-118c62928095)
+
+  
 - What is a cubesat?
 
    A CubeSat is a class of small satellite with a form factor of 10 cm (3.9 in) cubes. These tiny satellites have a 
@@ -66,15 +74,10 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
       objectives of the NASA Strategic Plan. Feasibility review will judge whether your CubeSat’s mission is achievable with regard to “technical implementation,”  
       including feasibility, resiliency, risk, and the probability of success.
 
-   4 CubeSat Design
-   You will also need to research which components will work best for your CubeSat 
-system.  most 
-popular components can now be purchased through commercial vendors.many 
-educational organizations still try to build and design as many components as 
-possible in-house in order to enhance the educational experience, as well as to 
-keep costs low
+   4. CubeSat Design
+      You will also need to research which components will work best for your CubeSat system. Most popular components can now be purchased through commercial 
+      vendors.Many educational organizations still try to build and design as many components as possible in-house in order to enhance the educational experience, as       well as to keep costs low.
   
-
    5 Development and Submittal of Proposal in Response to CSLI Call
 
    6 Selection and Manifesting
