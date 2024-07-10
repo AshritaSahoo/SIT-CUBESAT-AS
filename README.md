@@ -56,9 +56,9 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
    CubeSats began as a collaborative effort in 1999 between Jordi Puig-Suari, a professor at California Polytechnic 
    State University (Cal Poly), and Bob Twiggs, a professor at Stanford University’s Space Systems Development 
    Laboratory (SSDL). The original intent of the project was to provide affordable access to space for the university 
-   science community, and it has successfully done so.
+   science community, and it has successfully done so. Standardized size allows for modular mass production and low cost as it has low launch cost.
 
-- Cubesat making procedure
+- Cubesat making procedure according to [NASA CubeSat-101 CSLI](https://www.bing.com/ck/a?!&&p=4d30e5cf239c36d9JmltdHM9MTcyMDU2OTYwMCZpZ3VpZD0yMTM2NjU1Yy00NTJhLTZkNWItMWNlOS03MWM4NDRmZjZjYjEmaW5zaWQ9NTIxMg&ptn=3&ver=2&hsh=3&fclid=2136655c-452a-6d5b-1ce9-71c844ff6cb1&psq=nasa+cubesat+pdf&u=a1aHR0cHM6Ly93d3cubmFzYS5nb3Yvd3AtY29udGVudC91cGxvYWRzLzIwMTcvMDMvbmFzYV9jc2xpX2N1YmVzYXRfMTAxXzUwOC5wZGY&ntb=1)
    
    1. Concept Development
   
@@ -104,7 +104,7 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
 
 ![Screenshot_6-7-2024_92241_](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/13460e20-78ae-46b0-bcf1-f3ce54885e21)
 
- ![Screenshot_10-7-2024_144451_](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/b17d22cf-7ba9-4732-86ad-a843c07741e1)
+ 
 
 - The above picture shows the first dispenser for CubeSats was the Poly-Picosatellite Orbital Deployer (P-POD). It was developed by Cal Poly and San Luis Obispo. 
 
@@ -116,17 +116,21 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
  3. EXTERNAL LED (MULTIPLE) BLINKING
 
 # Cubesat communication:
+[June 26: CubeSat Communication I:](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/lectures/2024-0626-CubeSat-Communication.pdf)
 ## 📻 LoRa based CubeSat communication HW architecture
    1. Basic digital modulation
       -What is digital modulation? What are the basic bandpass types?
        (ASK,FSK,PSK)
        [Digital modulation](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/blob/main/Digital%20Modulation.docx)
       
-   2. 
-   4. Electromagnetic Spectrum
-   5. Carrier frequency selection
-   6. Satellite orbital Fundamentals
-   7. LoRa Radio architecture
+   2. Minimum payload
+      
+
+   4. 
+   5. Electromagnetic Spectrum
+   6. Carrier frequency selection
+   7. Satellite orbital Fundamentals
+   8. LoRa Radio architecture
 
 **SCREENSHOTS**
  
@@ -136,7 +140,7 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
 
 ![Screenshot_6-7-2024_9507_github com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/9e74f745-aad3-4b78-9719-9f4147df6cbb)
 
-![Screenshot_7-7-2024_75955_github com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/cbf16b72-3e54-4bb6-aeab-4d493f91d241)
+![lora_archtct](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/c50f5b96-2edc-4804-ac7b-1214b8ddda79)
 
       
  ## 💡 Arduino(LAB2):
