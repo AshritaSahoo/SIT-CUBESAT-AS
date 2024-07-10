@@ -119,7 +119,7 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
 ## 📻 LoRa based CubeSat communication HW architecture
    1. Basic digital modulation
       -What is digital modulation?
-       [Digital modulation](https://d.docs.live.net/68f44e132c3a2de2/Documents/Digital%20Modulation.docx)
+       [Digital modulation](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/blob/main/Digital%20Modulation.docx)
       
    3. Basic bandpass (ASK,FSK,PSK)
    4. Electromagnetic Spectrum
