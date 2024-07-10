@@ -7,6 +7,8 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
 
 # Introduction:
 
+![csli_compliation_gif](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/3820da19-6765-4852-aaad-118c62928095)
+
 
 # 🗣️ AN ENLIGHTENING TALK BY Dr. Chinmoy Saha 
  - He is a Professor at the Department of Avionics in the Indian Institute of Space Science and Technology.
@@ -41,10 +43,7 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
 ## 🧑‍🚀 Introduction to CUBESAT : Basic concepts and processes
 - [June 26: Cubesat101](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/lectures/2024-0625-CubeSat101.pdf)
 
-![csli_compliation_gif](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/3820da19-6765-4852-aaad-118c62928095)
-
-  
-- What is a cubesat?
+ - What is a cubesat?
 
    A CubeSat is a class of small satellite with a form factor of 10 cm (3.9 in) cubes. These tiny satellites have a 
    mass of no more than 2 kg (4.4 lb) per unit and often use commercial off-the-shelf (COTS) components for their 
@@ -62,51 +61,50 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
 - Cubesat making procedure
    
    1. Concept Development
-   What do you want your CubeSat to do? CubeSat developer will take anywhere from 1 to 6 months to plan the goals and  part of this conceptual development 
-   time will be spent in search of possible partners and collaborators who may have goals similar to your own. 
   
    2. Securing Funding
-    Do not accept a launch opportunity until you are confident you can deliver your CubeSat on time. The amount of funding you’re going to need to budget for depends     on a number of different factors, the most important of which include the mission’s complexity, the experience level of your personnel, the project’s duration,       and whether you need any specialized hardware. 
-
+  
    3. Merit and Feasibility Reviews
-      Merit review will assess the goals and objectives of the mission to determine the quality of its investigation in regard to science, education, and/or         
-      technology. It will also determine if the overall investigation supports one or more of the science, education, technology, and/or operations goals or 
-      objectives of the NASA Strategic Plan. Feasibility review will judge whether your CubeSat’s mission is achievable with regard to “technical implementation,”  
-      including feasibility, resiliency, risk, and the probability of success.
+     
 
    4. CubeSat Design
-      You will also need to research which components will work best for your CubeSat system. Most popular components can now be purchased through commercial 
-      vendors.Many educational organizations still try to build and design as many components as possible in-house in order to enhance the educational experience, as       well as to keep costs low.
   
-   5 Development and Submittal of Proposal in Response to CSLI Call
+   5. Development and Submittal of Proposal in Response to CSLI Call
 
-   6 Selection and Manifesting
+   6. Selection and Manifesting
+  
+   7. Mission Coordination
+   
+   8. Regulatory Licensing
 
-   7 Mission Coordination
+   9. Flight Specific Documentation Development and Submittal
 
-   8 Regulatory Licensing
+   10. Ground Station Design, Development, and Testing
+   
+   11. CubeSat Hardware Fabrication and Testing
 
-   9 Flight Specific Documentation Development and Submittal
+   12. Mission Readiness Reviews
+ 
+   13. CubeSat-to-Dispenser Integration and Testing
 
-   10 Ground Station Design, Development, and Testing
+   14. Dispenser-to-Launch Vehicle Integration
 
-   11 CubeSat Hardware Fabrication and Testing
+   15. Launch
 
-   12 Mission Readiness Reviews
-
-   13 CubeSat-to-Dispenser Integration and Testing
-
-   14 Dispenser-to-Launch Vehicle Integration
-
-   15 Launch
-
-   16 Mission Operation
+   16. Mission Operation
+ 
+- What is a dispenser?
+  The dispenser is the interface between the CubeSat and the launch vehicle (LV). The dispenser provides attachment  
+  to a launch vehicle (or rocket), protects the CubeSat during launch, and releases it into space at the appropriate 
+  time.
 
   **SCREENSHOTS**
-   
-![Screenshot_6-7-2024_92041_](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/161f3949-031c-43b2-958b-fffa545f4335)
+  
+ ![Screenshot_6-7-2024_92041_](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/161f3949-031c-43b2-958b-fffa545f4335)
 
 ![Screenshot_6-7-2024_92241_](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/13460e20-78ae-46b0-bcf1-f3ce54885e21)
+
+ ![Screenshot_10-7-2024_144451_](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/b17d22cf-7ba9-4732-86ad-a843c07741e1)
 
 - The above picture shows the first dispenser for CubeSats was the Poly-Picosatellite Orbital Deployer (P-POD). It was developed by Cal Poly and San Luis Obispo. 
 
@@ -117,16 +115,17 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
  2. EXTERNAL LED (1) BLINKING
  3. EXTERNAL LED (MULTIPLE) BLINKING
 
-# Satellite communication:
-## 📻 CUBESAT COMMUNICATION
-- In this project we use the LoRa Transceiver module for satellite communication with the help of a ESP32 board.
-- Topics covered:
+# Cubesat communication:
+## 📻 LoRa based CubeSat communication HW architecture
    1. Basic digital modulation
-   2. Basic bandpass (ASK,FSK,PSK)
-   3. Electromagnetic Spectrum
-   4. Carrier frequency selection
-   5. Satellite orbital Fundamentals
-   6. LoRa Radio architecture
+      -What is digital modulation?
+       [Digital modulation](https://d.docs.live.net/68f44e132c3a2de2/Documents/Digital%20Modulation.docx)
+      
+   3. Basic bandpass (ASK,FSK,PSK)
+   4. Electromagnetic Spectrum
+   5. Carrier frequency selection
+   6. Satellite orbital Fundamentals
+   7. LoRa Radio architecture
 
 **SCREENSHOTS**
  
