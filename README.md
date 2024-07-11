@@ -125,6 +125,7 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
      [FUNCTIONS](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FAshritaSahoo%2FSIT-CUBESAT-AS%2Fmain%2FCUBESAT%2520PARTS%2520AND%2520FUNCTIONS.docx&wdOrigin=BROWSELINK)
 
  - Electromagnetic Spectrum
+   
    6. Carrier frequency selection
    7. Satellite orbital Fundamentals
    8. LoRa Radio architecture
