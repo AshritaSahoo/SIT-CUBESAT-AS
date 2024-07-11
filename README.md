@@ -119,30 +119,61 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
    - Here are the functions of the above shown parts.
      [FUNCTIONS](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FAshritaSahoo%2FSIT-CUBESAT-AS%2Fmain%2FCUBESAT%2520PARTS%2520AND%2520FUNCTIONS.docx&wdOrigin=BROWSELINK)
    - In general minimum payload consists of a power management system, an on-board computer and a communication system.
-   ### LoRa based communication system
+       
+ ### Basic digital modulation
+   1. What is digital modulation? What are the basic bandpass types?
+       (ASK,FSK,PSK)
+       [Digital modulation](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/blob/main/Digital%20Modulation.docx)
+   2. Carrier frequency selection
+        In telecommunications, carrier frequency refers to the frequency of a carrier wave—a periodic waveform, usually sinusoidal—that carries no information itself. Instead, it’s modified by an information-bearing signal (the modulation signal) to convey information. The carrier wave typically has a much higher frequency than the message signal. This is done to ensure propagation efficiency. The factors of selecting the carrier frequency are: Power efficiency, bandwidth efficieny, system complexity, frequency allocation and regulations.
+
+- Satellite orbital Fundamentals
+  Upon launch, a satellite or spacecraft is most often placed in one of several particular orbits around Earth – or it might be sent on an interplanetary journey, meaning that it does not orbit Earth anymore, but instead orbits the Sun until its arrival at its final destination. They are of the following types : LEO (Low Earth Orbit), MEO(Medium Earth Orbit), GEO(Geostationary Orbit). Here are is the information you need to know before selecting the orbit: [ESA-TYPES OF ORBITS](https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits)
+
+ ### LoRa based communication system
 
  - LoRa (from "long range") is a physical proprietary radio communication technique. It is based on spread spectrum modulation techniques derived from chirp spread 
    spectrum (CSS) technology. It was developed by Cycleo, a company of Grenoble, France, and patented in 2014. Cycleo was later acquired by Semtech.
- -  Here is a brief information about LoRa provided by Semtech.
- -  [PDF](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/AN1200_22_Semtech_LoRa_Basics_v2_STD.pdf)
-       
-   #### Basic digital modulation
-      
-      1. What is digital modulation? What are the basic bandpass types?
-       (ASK,FSK,PSK)
-       [Digital modulation](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/blob/main/Digital%20Modulation.docx)
-      
-  
-   6. Carrier frequency selection
-   7. Satellite orbital Fundamentals
-   8. LoRa Radio architecture
+ -  Here is a brief information about LoRa provided by Semtech.[PDF](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/AN1200_22_Semtech_LoRa_Basics_v2_STD.pdf)
+
+![lora_archtct](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/c50f5b96-2edc-4804-ac7b-1214b8ddda79)
+
+1. **Analog Front End & Data Conversion:**
+   - **Matching:** This component ensures impedance matching between the antenna and the receiver.
+   - **LNA (Low Noise Amplifier):** Amplifies weak incoming signals from the antenna.
+   - **LPF (Low Pass Filter):** Filters out unwanted high-frequency noise.
+   - **ADC (Analog to Digital Converter):** Converts analog signals to digital for further processing.
+
+2. **LoRa™ Modem:**
+   - Processes digital signals using LoRa technology for long-range communication.
+
+3. **Protocol Engine:**
+   - Manages communication protocols and data packet handling.
+
+4. **FSK Modem:**
+   - Handles Frequency Shift Keying modulation and demodulation.
+
+5. **Power Management:**
+   - **DC-DC Converter:** Regulates voltage levels.
+   - **LDO (Low Dropout Regulator):** Provides stable power supply.
+
+6. **SPI (Serial Peripheral Interface):**
+   - Used for communication between microcontrollers and other devices.
+
+7. **Data Buffer:**
+   - Temporarily stores data during processing or transmission.
+
+8. **PA (Power Amplifier), PLL (Phase-Locked Loop), and OSC (Oscillator):**
+   - **PA:** Boosts signal strength before transmission.
+   - **PLL:** Used in frequency synthesis and clock generation.
+   - **OSC:** Generates periodic signals.
 
 ![Screenshot_6-7-2024_95120_github com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/48737ce6-c15b-4b47-a4f0-5b8680d6b9f1)
 
 ![Cubesat architecture](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/4f5c2992-2749-4cb4-93ea-7d2e4c85b45a)
 
 
-![lora_archtct](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/c50f5b96-2edc-4804-ac7b-1214b8ddda79)
+
 
       
 
