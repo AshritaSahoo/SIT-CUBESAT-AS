@@ -61,7 +61,7 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
    science community, and it has successfully done so. Now these are also used for various other experiments like testing instruments, enabling commercial applications,disaster response to climate monitoring.Supporting advanced mission concepts using constellations or swarms.
 
 - Cubesat making procedure according to [NASA CubeSat-101 CSLI](https://www.bing.com/ck/a?!&&p=4d30e5cf239c36d9JmltdHM9MTcyMDU2OTYwMCZpZ3VpZD0yMTM2NjU1Yy00NTJhLTZkNWItMWNlOS03MWM4NDRmZjZjYjEmaW5zaWQ9NTIxMg&ptn=3&ver=2&hsh=3&fclid=2136655c-452a-6d5b-1ce9-71c844ff6cb1&psq=nasa+cubesat+pdf&u=a1aHR0cHM6Ly93d3cubmFzYS5nb3Yvd3AtY29udGVudC91cGxvYWRzLzIwMTcvMDMvbmFzYV9jc2xpX2N1YmVzYXRfMTAxXzUwOC5wZGY&ntb=1)
-   The following are the step by step procedure that needs to be followed while building a CubeSat:
+   The following are the step by step procedure that needs to be followed while building a CubeSat TO:
   
    1. Concept Development
   
