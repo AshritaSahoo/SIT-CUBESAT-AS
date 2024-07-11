@@ -107,14 +107,9 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
 
 # Cubesat communication:
 [June 26: CubeSat Communication I:](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/lectures/2024-0626-CubeSat-Communication.pdf)
-## 📻 LoRa based CubeSat communication HW architecture
-   - Basic digital modulation
-      -What is digital modulation? What are the basic bandpass types?
-       (ASK,FSK,PSK)
-       [Digital modulation](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/blob/main/Digital%20Modulation.docx)
-      
-   - Minimum payload
-      The payload of a satellite refers to the part that gives it its primary function or purpose. Essentially, the 
+
+ ### Minimum payload
+    -  The payload of a satellite refers to the part that gives it its primary function or purpose. Essentially, the 
       payload is what performs the specific tasks or functions desired from the satellite. For instance, in 
       communication satellites, the payload includes antennas, receivers, and transmitters that facilitate 
       communication.Given below is the minimal payload for a Cubesat.
@@ -123,12 +118,21 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
 
    - Here are the functions of the above shown parts.
      [FUNCTIONS](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FAshritaSahoo%2FSIT-CUBESAT-AS%2Fmain%2FCUBESAT%2520PARTS%2520AND%2520FUNCTIONS.docx&wdOrigin=BROWSELINK)
+   - In general minimum payload consists of a power management system, an on-board computer and a communication system.
+   ### LoRa based communication system
 
- - Electromagnetic Spectrum
-
-
-
-   
+ - LoRa (from "long range") is a physical proprietary radio communication technique. It is based on spread spectrum modulation techniques derived from chirp spread 
+   spectrum (CSS) technology. It was developed by Cycleo, a company of Grenoble, France, and patented in 2014. Cycleo was later acquired by Semtech.
+ -  Here is a brief information about LoRa provided by Semtech.
+ -  [PDF](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/AN1200_22_Semtech_LoRa_Basics_v2_STD.pdf)
+       
+   #### Basic digital modulation
+      
+      1. What is digital modulation? What are the basic bandpass types?
+       (ASK,FSK,PSK)
+       [Digital modulation](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/blob/main/Digital%20Modulation.docx)
+      
+  
    6. Carrier frequency selection
    7. Satellite orbital Fundamentals
    8. LoRa Radio architecture
