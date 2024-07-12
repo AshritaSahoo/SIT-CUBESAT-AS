@@ -108,7 +108,7 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
 # Cubesat communication:
 [June 26: CubeSat Communication I:](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/lectures/2024-0626-CubeSat-Communication.pdf)
 
- ### Minimum payload
+ ## Minimum payload
     -  The payload of a satellite refers to the part that gives it its primary function or purpose. Essentially, the 
       payload is what performs the specific tasks or functions desired from the satellite. For instance, in 
       communication satellites, the payload includes antennas, receivers, and transmitters that facilitate 
@@ -120,7 +120,7 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
      [FUNCTIONS](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FAshritaSahoo%2FSIT-CUBESAT-AS%2Fmain%2FCUBESAT%2520PARTS%2520AND%2520FUNCTIONS.docx&wdOrigin=BROWSELINK)
    - In general minimum payload consists of a power management system, an on-board computer and a communication system.
        
- ### Basic digital modulation
+ ## Basic digital modulation
    1. What is digital modulation? What are the basic bandpass types?
        (ASK,FSK,PSK)
        [Digital modulation](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/blob/main/Digital%20Modulation.docx)
@@ -130,7 +130,7 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
 - Satellite orbital Fundamentals
   Upon launch, a satellite or spacecraft is most often placed in one of several particular orbits around Earth – or it might be sent on an interplanetary journey, meaning that it does not orbit Earth anymore, but instead orbits the Sun until its arrival at its final destination. They are of the following types : LEO (Low Earth Orbit), MEO(Medium Earth Orbit), GEO(Geostationary Orbit). Here are is the information you need to know before selecting the orbit: [ESA-TYPES OF ORBITS](https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits)
 
- ### LoRa based communication system
+ ## LoRa based communication system
 
  - LoRa (from "long range") is a physical proprietary radio communication technique. It is based on spread spectrum modulation techniques derived from chirp spread 
    spectrum (CSS) technology. It was developed by Cycleo, a company of Grenoble, France, and patented in 2014. Cycleo was later acquired by Semtech.
@@ -168,9 +168,35 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
    - **PLL:** Used in frequency synthesis and clock generation.
    - **OSC:** Generates periodic signals.
 
+## ESP32
+- The ESP32 is a versatile System on Chip (SoC) microcontroller developed by Espressif Systems. [ESP32 REFERENCE MANUAL](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/Datasheet-ESP32.pdf)
+- [ESP32 DATASHEET](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/Datasheet-ESP32.pdf)
+-  It is a microcontroller, with built-in wifi and bluetooth.
+  
+![ESP32](https://github.com/user-attachments/assets/bcd8925d-297e-4101-a7ee-f9ba505d663d)
+
+It's pin configuration is as such:
+![Screenshot_12-7-2024_85451_www espressif com](https://github.com/user-attachments/assets/331ba15e-e958-48b3-9d13-7241ce9bf729)
+
+- All those devices come together to form a communication system between the satellite(CubeSat) and the ground station consisting of the LoRa module and ESP32.
+
+  ## SPI protocol
+  - It is a synchronous communication protocol.
+  - It allows a full duplex communication: i.e it can transmit and receive signals at the same time.
+  -  SPI uses four wires:
+     MOSI (Master Out, Slave In): Main (master) sends data to the sub (slave).
+     MISO (Master In, Slave Out): Sub sends data to the main.
+     SCLK (Serial Clock): Clock signal from the main.
+     CS (Chip Select): Active-low signal to select a specific sub device.
+ 
+   
 ![Screenshot_6-7-2024_95120_github com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/48737ce6-c15b-4b47-a4f0-5b8680d6b9f1)
 
+
+## CubeSat Architecture
+
 ![Cubesat architecture](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/4f5c2992-2749-4cb4-93ea-7d2e4c85b45a)
+
 
 
 
