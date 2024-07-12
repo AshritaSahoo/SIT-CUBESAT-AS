@@ -10,7 +10,7 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
 ![csli_compliation_gif](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/3820da19-6765-4852-aaad-118c62928095)
 
 
-# 🗣️ AN ENLIGHTENING TALK BY Dr. Chinmoy Saha 
+# AN ENLIGHTENING TALK BY Dr. Chinmoy Saha 
  - He is a Professor at the Department of Avionics in the Indian Institute of Space Science and Technology.
  - His Talk was about Small form factor satellites and satellite communication.
  - A CubeSat is a class of small satellite with a form factor of 10 cm (3.9 in) cubes. These tiny satellites have a 
@@ -21,13 +21,11 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
 
 
 **SCREENSHOTS:**
-   
-  ![Screenshot_6-7-2024_85621_github com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/e8049bbb-68ae-400d-9bed-5f9c0d32875d)
 
  ![cubesat](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/116be5ff-a8a5-4448-9efc-a251865767d0)
 
 
-# 🗣️ AN ADVENTUROUS JOURNEY WITH Harrish Kesavan:
+#  AN ADVENTUROUS JOURNEY WITH Harrish Kesavan:
 - He is a core team member of To Space.
 - His talk about Exploring pocket cube satellites gave off small satellites, big impact vibes.
 - A PocketCube is a type of miniaturized satellite designed for space research. These tiny satellites typically have 
@@ -37,12 +35,11 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
     technology demonstrations.
 
   **SCREENSHOTS:**
-  ![Screenshot_6-7-2024_9419_github com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/87d8384b-ca1b-4f3e-85e7-fc2017c46930)
 
   ![Screenshot_6-7-2024_91325_www linkedin com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/35ab75e4-1702-4950-8754-2b48848d3548)
 
 # Cubesat Basics:
-## 🧑‍🚀 Introduction to CUBESAT : Basic concepts and processes
+## Introduction to CUBESAT : Basic concepts and processes
 - [June 26: Cubesat101](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/lectures/2024-0625-CubeSat101.pdf)
 
  - What is a cubesat?
@@ -109,12 +106,9 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
 [June 26: CubeSat Communication I:](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/lectures/2024-0626-CubeSat-Communication.pdf)
 
  ## Minimum payload
-    -  The payload of a satellite refers to the part that gives it its primary function or purpose. Essentially, the 
-      payload is what performs the specific tasks or functions desired from the satellite. For instance, in 
-      communication satellites, the payload includes antennas, receivers, and transmitters that facilitate 
-      communication.Given below is the minimal payload for a Cubesat.
+   -  The payload of a satellite refers to the part that gives it its primary function or purpose. Essentially, the payload is what performs the specific tasks or functions desired from the satellite. For instance, in communication satellites, the payload includes antennas, receivers, and transmitters that facilitates communication.Given below is the minimal payload for a Cubesat.
       
-      ![minimumpayload](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/3ebc7d27-b1f6-412e-ae19-192caabe2b92)
+   ![minimumpayload](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/3ebc7d27-b1f6-412e-ae19-192caabe2b92)
 
    - Here are the functions of the above shown parts.
      [FUNCTIONS](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FAshritaSahoo%2FSIT-CUBESAT-AS%2Fmain%2FCUBESAT%2520PARTS%2520AND%2520FUNCTIONS.docx&wdOrigin=BROWSELINK)
@@ -204,7 +198,7 @@ It's pin configuration is as such:
       
 
 
-# 🌞 DAY4 (28/06/2024):
+# DAY4 (28/06/2024):
 ## Software setup for Python and Github account
 - Topics covered:
    1. FFT
