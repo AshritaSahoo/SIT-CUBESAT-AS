@@ -107,18 +107,24 @@ This is a repository for Summer Internship 2024 on Cubesat and satellite design.
 2. What are the basic digital modulation methods?
    i. Non-return to zero level:
     It represents binary 1 as a high voltage level (often positive) and binary 0 as a low voltage level (often zero). It maintains the signal level constant for the duration of the bit time.
+
  ![NZR](https://github.com/user-attachments/assets/845994e8-62b9-4a41-8d7c-c185830c4851)
+   
    ii. Unipolar RZ:
    It represents binary 1 as a positive voltage (e.g., +V volts) and binary 0 represented by a zero voltage (0 volts). Return to zero- The signal returns to zero volts (or a reference voltage) at regular intervals, specifically at the midpoint of each bit period.
+
    ![Unipolar rz](https://github.com/user-attachments/assets/7f905a06-b4e3-4b02-9a18-d75628d51178)
 
    iii. Bi-phase-L (Manchester):
-    There is a transition in the middle of each bit period, which allows for clock synchronization and improves reliability in noisy environments.Binary 1is represented by a transition from a high to a low (or low to high) state in the middle of the bit period.Binary 0 
- is represented by a transition from a low to a high (or high to low) state in the middle of the bit period.
-![Screenshot_13-7-2024_72517_github com](https://github.com/user-attachments/assets/aaacfb4b-cc24-4b8a-acc0-074e0b1fc5eb)
+    There is a transition in the middle of each bit period, which allows for clock synchronization and improves reliability in noisy environments.Binary 1 is represented by a transition from a high to a low (or low to high) state in the middle of the bit period.Binary 0 is represented by a transition from a low to a high (or high to low) state in the middle of the bit period.
+
+![Screenshot_13-7-2024_81034_en wikipedia org](https://github.com/user-attachments/assets/c5ba80e6-1fab-4dea-b82b-2af452684f25)
+
 
 - Basic Bandpass Modulation
-  1.
+  1. What is bandpass modulation?
+     Bandpass modulation refers to a type of modulation where the baseband signal (which typically carries the information to be transmitted) is modulated onto a carrier signal. This process effectively shifts the frequency spectrum of the baseband signal to a higher frequency range, known as the passband.
+
  2.What are the basic bandpass types? 
   i. Amplitude Shift Keying (ASK):
   Varies the amplitude of the carrier wave to represent binary data.
@@ -134,7 +140,8 @@ Binary 1 and binary 0 are represented by different phase shifts (e.g. 0°and 180
 
 ![Screenshot_13-7-2024_72631_github com](https://github.com/user-attachments/assets/d63643db-6b46-4e50-a9f0-e39885d2be2b)
 
- 
+ 3. What is carrier signal?
+    A carrier signal is a high-frequency signal that is modulated by the baseband signal. The carrier frequency is chosen such that it lies within a certain band of frequencies, known as the passband.
 
 
 
