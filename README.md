@@ -1,16 +1,15 @@
 # 🛰️ SIT-CUBESAT-AS
 This is a repository for Summer Internship 2024 on Cubesat and satellite design.
-We're learning about satellite communication.
-Follow me as we embark on an engaging and enthralling journey to build a ground station to receive satellite signals.
-
-# ABSTRACT
-
-# Introduction:
 
 ![csli_compliation_gif](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/3820da19-6765-4852-aaad-118c62928095)
 
+# ABSTRACT
+- The Summer Internship of 2024 on "Introduction to Cubesats and Satellite Communication", serves as a comprehensive educational platform. Specifically targeting students and enthusiasts interested in CubeSat and satellite communication technologies. This repository provides a structured learning path through a series of practical labs and projects, each focusing on different aspects of satellite technology. We engaged in an intensive study on CubeSat fundamentals, satellite communication principles, LoRa protocol applications and antenna design. This was done through hands-on lab exercises dedicated to signal processing using Python, ESP32 platforms using Arduino IDE, configuring TinyGS ground stations, and simulating antenna designs using 4NEC2 software. This equipped us with essential skills in handling and analyzing signals, a critical component in satellite communications. The course aims to bridge the gap between theoretical knowledge and practical application, preparing the students for the field of satellite technology and communication.
+# Introduction:
+- The Summer Internship program aims at fostering expertise in the field of CubeSat and satellite communication. CubeSats, or miniature satellites, have become an essential tool in modern space exploration and communication due to their cost-effectiveness and versatility. 
 
-# AN ENLIGHTENING TALK BY Dr. Chinmoy Saha 
+
+# Introductory talk by Dr. Chinmoy Saha 
  - He is a Professor at the Department of Avionics in the Indian Institute of Space Science and Technology.
  - His Talk was about Small form factor satellites and satellite communication.
  - A CubeSat is a class of small satellite with a form factor of 10 cm (3.9 in) cubes. These tiny satellites have a 
@@ -25,7 +24,7 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
  ![cubesat](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/116be5ff-a8a5-4448-9efc-a251865767d0)
 
 
-#  AN ADVENTUROUS JOURNEY WITH Harrish Kesavan:
+#  Introductory talk by Harrish Kesavan:
 - He is a core team member of To Space.
 - His talk about Exploring pocket cube satellites gave off small satellites, big impact vibes.
 - A PocketCube is a type of miniaturized satellite designed for space research. These tiny satellites typically have 
@@ -38,10 +37,9 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
 
   ![Screenshot_6-7-2024_91325_www linkedin com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/35ab75e4-1702-4950-8754-2b48848d3548)
 
+
 # Cubesat Basics:
 ## Introduction to CUBESAT : Basic concepts and processes
-- [June 26: Cubesat101](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/lectures/2024-0625-CubeSat101.pdf)
-
  - What is a cubesat?
 
    A CubeSat is a class of small satellite with a form factor of 10 cm (3.9 in) cubes. These tiny satellites have a 
@@ -54,10 +52,9 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
   
    CubeSats began as a collaborative effort in 1999 between Jordi Puig-Suari, a professor at California Polytechnic 
    State University (Cal Poly), and Bob Twiggs, a professor at Stanford University’s Space Systems Development 
-   Laboratory (SSDL). The original intent of the project was to provide affordable access to space for the university 
-   science community, and it has successfully done so. Now these are also used for various other experiments like testing instruments, enabling commercial applications,disaster response to climate monitoring.Supporting advanced mission concepts using constellations or swarms.
+   Laboratory (SSDL). The original intent of the project was to provide affordable access to space for the university science community, and it has successfully done so. Now these are also used for various other experiments like testing instruments, enabling commercial applications,disaster response to climate monitoring.Supporting advanced mission concepts using constellations or swarms.
 
-- Cubesat making procedure according to [NASA CubeSat-101 CSLI](https://www.bing.com/ck/a?!&&p=4d30e5cf239c36d9JmltdHM9MTcyMDU2OTYwMCZpZ3VpZD0yMTM2NjU1Yy00NTJhLTZkNWItMWNlOS03MWM4NDRmZjZjYjEmaW5zaWQ9NTIxMg&ptn=3&ver=2&hsh=3&fclid=2136655c-452a-6d5b-1ce9-71c844ff6cb1&psq=nasa+cubesat+pdf&u=a1aHR0cHM6Ly93d3cubmFzYS5nb3Yvd3AtY29udGVudC91cGxvYWRzLzIwMTcvMDMvbmFzYV9jc2xpX2N1YmVzYXRfMTAxXzUwOC5wZGY&ntb=1)
+- Cubesat making procedure according to [NASA CubeSat-101 CSLI](https://www.bing.com/ck/a?!&&p=4d30e5cf239c36d9JmltdHM9MTcyMDU2OTYwMCZpZ3VpZD0yMTM2NjU1Yy00NTJhLTZkNWItMWNlOS03MWM4NDRmZjZjYjEmaW5zaWQ9NTIxMg&ptn=3&ver=2&hsh=3&fclid=2136655c-452a-6d5b-1ce9-71c844ff6cb1&psq=nasa+cubesat+pdf&u=a1aHR0cHM6Ly93d3cubmFzYS5nb3Yvd3AtY29udGVudC91cGxvYWRzLzIwMTcvMDMvbmFzYV9jc2xpX2N1YmVzYXRfMTAxXzUwOC5wZGY&ntb=1).
    The following are the step by step procedure that needs to be followed while building a CubeSat to the point of launching it into the space, provided by NASA CSLI(CubeSat Launch Initiative):
   
    1. Concept Development
@@ -95,15 +92,59 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
  
   **SCREENSHOTS**
   
- ![Screenshot_6-7-2024_92041_](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/161f3949-031c-43b2-958b-fffa545f4335)
-
 ![Screenshot_6-7-2024_92241_](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/13460e20-78ae-46b0-bcf1-f3ce54885e21)
 
  - The above picture shows the first dispenser for CubeSats was the Poly-Picosatellite Orbital Deployer (P-POD). It was developed by Cal Poly and San Luis Obispo. 
 
+![R](https://github.com/user-attachments/assets/9fff755a-930e-4408-8ef1-0732e9009854)
+
+# Signal Processing
+ ## Digital Modulation 
+ - Basic digital modulation:
+    1. What is digital modulation? 
+    Modulation is The process of superimposing high-frequency carrier signals with low-frequency message signals resulting in a modulated wave.  In modulation, one of the three parameters of the carrier wave is changed i.e. amplitude, frequency or phase according to the amplitude of the message signal at a given time instant. It is an important technique used to increase the range of communication, increase the signal-to-noise ratio, and decrease the size of the antenna. In this process the binary data is modulated to a carrier sinusoidal wave.
+
+2. What are the basic digital modulation methods?
+   i. Non-return to zero level:
+    It represents binary 1 as a high voltage level (often positive) and binary 0 as a low voltage level (often zero). It maintains the signal level constant for the duration of the bit time.
+ ![NZR](https://github.com/user-attachments/assets/845994e8-62b9-4a41-8d7c-c185830c4851)
+   ii. Unipolar RZ:
+   It represents binary 1 as a positive voltage (e.g., +V volts) and binary 0 represented by a zero voltage (0 volts). Return to zero- The signal returns to zero volts (or a reference voltage) at regular intervals, specifically at the midpoint of each bit period.
+   ![Unipolar rz](https://github.com/user-attachments/assets/7f905a06-b4e3-4b02-9a18-d75628d51178)
+
+   iii. Bi-phase-L (Manchester):
+    There is a transition in the middle of each bit period, which allows for clock synchronization and improves reliability in noisy environments.Binary 1is represented by a transition from a high to a low (or low to high) state in the middle of the bit period.Binary 0 
+ is represented by a transition from a low to a high (or high to low) state in the middle of the bit period.
+![Screenshot_13-7-2024_72517_github com](https://github.com/user-attachments/assets/aaacfb4b-cc24-4b8a-acc0-074e0b1fc5eb)
+
+- Basic Bandpass Modulation
+  1.
+ 2.What are the basic bandpass types? 
+  i. Amplitude Shift Keying (ASK):
+  Varies the amplitude of the carrier wave to represent binary data.
+Binary 1 might be a high amplitude, while binary 0 might be a low or zero amplitude.
+
+ ii. Frequency Shift Keying (FSK):
+ Changes the frequency of the carrier wave to represent binary data.
+Binary 1 could be a high frequency, and binary 0 could be a low frequency.
+
+iii. Phase Shift Keying (PSK):
+Alters the phase of the carrier wave to represent binary data.
+Binary 1 and binary 0 are represented by different phase shifts (e.g. 0°and 180° for Binary PSK).
+
+![Screenshot_13-7-2024_72631_github com](https://github.com/user-attachments/assets/d63643db-6b46-4e50-a9f0-e39885d2be2b)
+
+ 
+
+
+
+- Carrier frequency selection
+        In telecommunications, carrier frequency refers to the frequency of a carrier wave—a periodic waveform, usually sinusoidal—that carries no information itself. Instead, it’s modified by an information-bearing signal (the modulation signal) to convey information. The carrier wave typically has a much higher frequency than the message signal. This is done to ensure propagation efficiency. The factors of selecting the carrier frequency are: Power efficiency, bandwidth efficieny, system complexity, frequency allocation and regulations.
+
 
 # Cubesat communication:
-[June 26: CubeSat Communication I:](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/lectures/2024-0626-CubeSat-Communication.pdf)
+## Satellite orbital Fundamentals
+  Upon launch, a satellite or spacecraft is most often placed in one of several particular orbits around Earth – or it might be sent on an interplanetary journey, meaning that it does not orbit Earth anymore, but instead orbits the Sun until its arrival at its final destination. They are of the following types : LEO (Low Earth Orbit), MEO(Medium Earth Orbit), GEO(Geostationary Orbit). Here are is the information you need to know before selecting the orbit: [ESA-TYPES OF ORBITS](https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits)
 
  ## Minimum payload
    -  The payload of a satellite refers to the part that gives it its primary function or purpose. Essentially, the payload is what performs the specific tasks or functions desired from the satellite. For instance, in communication satellites, the payload includes antennas, receivers, and transmitters that facilitates communication.Given below is the minimal payload for a Cubesat.
@@ -113,16 +154,10 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
    - Here are the functions of the above shown parts.
      [FUNCTIONS](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FAshritaSahoo%2FSIT-CUBESAT-AS%2Fmain%2FCUBESAT%2520PARTS%2520AND%2520FUNCTIONS.docx&wdOrigin=BROWSELINK)
    - In general minimum payload consists of a power management system, an on-board computer and a communication system.
-       
- ## Basic digital modulation
-   1. What is digital modulation? What are the basic bandpass types?
-       (ASK,FSK,PSK)
-       [Digital modulation](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/blob/main/Digital%20Modulation.docx)
-   2. Carrier frequency selection
-        In telecommunications, carrier frequency refers to the frequency of a carrier wave—a periodic waveform, usually sinusoidal—that carries no information itself. Instead, it’s modified by an information-bearing signal (the modulation signal) to convey information. The carrier wave typically has a much higher frequency than the message signal. This is done to ensure propagation efficiency. The factors of selecting the carrier frequency are: Power efficiency, bandwidth efficieny, system complexity, frequency allocation and regulations.
 
-- Satellite orbital Fundamentals
-  Upon launch, a satellite or spacecraft is most often placed in one of several particular orbits around Earth – or it might be sent on an interplanetary journey, meaning that it does not orbit Earth anymore, but instead orbits the Sun until its arrival at its final destination. They are of the following types : LEO (Low Earth Orbit), MEO(Medium Earth Orbit), GEO(Geostationary Orbit). Here are is the information you need to know before selecting the orbit: [ESA-TYPES OF ORBITS](https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits)
+## CubeSat Architecture
+
+![Cubesat architecture](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/4f5c2992-2749-4cb4-93ea-7d2e4c85b45a)
 
  ## LoRa based communication system
 
@@ -165,47 +200,36 @@ Follow me as we embark on an engaging and enthralling journey to build a ground 
 ## ESP32
 - The ESP32 is a versatile System on Chip (SoC) microcontroller developed by Espressif Systems. [ESP32 REFERENCE MANUAL](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/Datasheet-ESP32.pdf)
 - [ESP32 DATASHEET](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/Datasheet-ESP32.pdf)
--  It is a microcontroller, with built-in wifi and bluetooth.
+-  It is a microcontroller, with built-in wifi and bluetooth, it features a dual-core processor, extensive GPIO (General-Purpose Input/Output) pins, and support for various peripherals.
+-  These are also widely used in IoT applications.
+-   The ESP32's versatility is enhanced by its compatibility with popular development environments like the Arduino IDE and Espressif's own ESP-IDF. In this program, further on, we use the Arduino IDE for various experiments on ESP32.
   
 ![ESP32](https://github.com/user-attachments/assets/bcd8925d-297e-4101-a7ee-f9ba505d663d)
 
-It's pin configuration is as such:
-![Screenshot_12-7-2024_85451_www espressif com](https://github.com/user-attachments/assets/331ba15e-e958-48b3-9d13-7241ce9bf729)
-
-- All those devices come together to form a communication system between the satellite(CubeSat) and the ground station consisting of the LoRa module and ESP32.
-
-  ## SPI protocol
-  - It is a synchronous communication protocol.
+  ## SPI protocol (Serial Peripheral Interface)
+  - It is a synchronous communication protocol. SPI is a fast, efficient protocol for communication between a master device and multiple slaves, commonly used in microcontroller-based projects for interfacing with peripherals like sensors, displays, and memory devices. Understanding SPI is crucial for developing embedded systems that require reliable, high-speed data transfer.
   - It allows a full duplex communication: i.e it can transmit and receive signals at the same time.
   -  SPI uses four wires:
      MOSI (Master Out, Slave In): Main (master) sends data to the sub (slave).
      MISO (Master In, Slave Out): Sub sends data to the main.
      SCLK (Serial Clock): Clock signal from the main.
      CS (Chip Select): Active-low signal to select a specific sub device.
- 
+ - Every device connected requires a wire of its own.
+ - Working od SPI:
+   Initialization: The master configures the clock speed and selects the slave by pulling the Chip Select line low.
+   Data Transfer: Data is shifted out of the master to the slave via MOSI, while data from the slave is shifted into the master via MISO, synchronized by the clock.
+   End Communication: The master deselects the slave by pulling the Chip Select line high.  
+
+## Communication process
+ - All those devices come together to form a communication system between the satellite(CubeSat) and the ground station consisting of the LoRa module and ESP32.
    
 ![Screenshot_6-7-2024_95120_github com](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/48737ce6-c15b-4b47-a4f0-5b8680d6b9f1)
 
-
-## CubeSat Architecture
-
-![Cubesat architecture](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/4f5c2992-2749-4cb4-93ea-7d2e4c85b45a)
-
+- The CubeSat collects data (telemetry or payload) and prepares it for transmission. Then its on board computer sends/ transmits data and communicates wirelessly with the LoRa RF module.The frequemcy at which the CubeSat sends the signal is 433MHz and so the ground station is designed in accordance with that to receive the signals, with a coverage of 110 degrees.
+- The ESP32 Dev kit is connected to the LoRa RF module via SPI and uploads the data to the internet with WiFi.
+- This data can be extracted from the Tiny GS website which is an open-source global satellite network that empowers space enthusiasts to become pioneers.
 
 
-
-
-      
-
-
-# DAY4 (28/06/2024):
-## Software setup for Python and Github account
-- Topics covered:
-   1. FFT
-   2. LoRa Communication Architecture
-   3. Python software installation
-   4. Github page creation
-   5. Modulation and demodulation
 
 
 # DAY5 (29/06/2024)
