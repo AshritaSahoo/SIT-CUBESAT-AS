@@ -5,8 +5,28 @@ This is a repository for Summer Internship 2024 on Cubesat and satellite design.
 
 # ABSTRACT
 - The Summer Internship of 2024 on "Introduction to Cubesats and Satellite Communication", serves as a comprehensive educational platform. Specifically targeting students and enthusiasts interested in CubeSat and satellite communication technologies. This repository provides a structured learning path through a series of practical labs and projects, each focusing on different aspects of satellite technology. We engaged in an intensive study on CubeSat fundamentals, satellite communication principles, LoRa protocol applications and antenna design. This was done through hands-on lab exercises dedicated to signal processing using Python, ESP32 platforms using Arduino IDE, configuring TinyGS ground stations, and simulating antenna designs using 4NEC2 software. This equipped us with essential skills in handling and analyzing signals, a critical component in satellite communications. The course aims to bridge the gap between theoretical knowledge and practical application, preparing the students for the field of satellite technology and communication.
-# Introduction:
-- The Summer Internship program aims at fostering expertise in the field of CubeSat and satellite communication. CubeSats, or miniature satellites, have become an essential tool in modern space exploration and communication due to their cost-effectiveness and versatility. 
+
+# Introduction
+Certainly! Here's an introduction for the internship program:
+
+---
+
+**Introduction to CubeSat and Satellite Communication Internship Program**
+
+Welcome to the CubeSat and Satellite Communication Internship Program at Silicon University. This program is designed to provide participants with comprehensive knowledge and practical skills in the rapidly evolving field of CubeSat technology and satellite communication.
+
+Throughout this internship, we went through the following aspects of Satellite communication.
+
+- **In-depth Understanding of CubeSat:** Learn about CubeSat, a revolutionary small satellite format, including its design principles, subsystem integration, and applications in space missions.
+
+- **Fundamentals of Satellite Communication:** Acquire basic knowledge of satellite communication systems, including link budget analysis, modulation techniques, and protocols.
+
+- **RF Communication with LoRa Protocol:** Explore the essentials of RF communication using the LoRa protocol, covering aspects such as signal modulation, data encoding, and network architecture.
+
+- **Basics of Antenna Design:** Learn the fundamentals of antenna design, including antenna types, radiation patterns, impedance matching, and practical antenna testing.
+
+- **Setting up TinyGS Ground Station:** Gain hands-on experience in setting up and operating a TinyGS ground station, including antenna deployment, satellite tracking, data reception, and analysis.
+
 
 
 # Introductory talk by Dr. Chinmoy Saha 
