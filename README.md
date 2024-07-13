@@ -101,31 +101,39 @@ This is a repository for Summer Internship 2024 on Cubesat and satellite design.
 # Signal Processing
  ## Digital Modulation 
  - Basic digital modulation:
-    1. What is digital modulation? 
+ 1. What is digital modulation?
+    
     Modulation is The process of superimposing high-frequency carrier signals with low-frequency message signals resulting in a modulated wave.  In modulation, one of the three parameters of the carrier wave is changed i.e. amplitude, frequency or phase according to the amplitude of the message signal at a given time instant. It is an important technique used to increase the range of communication, increase the signal-to-noise ratio, and decrease the size of the antenna. In this process the binary data is modulated to a carrier sinusoidal wave.
 
 2. What are the basic digital modulation methods?
+ 
    i. Non-return to zero level:
     It represents binary 1 as a high voltage level (often positive) and binary 0 as a low voltage level (often zero). It maintains the signal level constant for the duration of the bit time.
 
- ![NZR](https://github.com/user-attachments/assets/845994e8-62b9-4a41-8d7c-c185830c4851)
+![Screenshot-(311)](https://github.com/user-attachments/assets/3e25349a-6f62-40ae-859c-becbc6567344)
+
+   
    
    ii. Unipolar RZ:
    It represents binary 1 as a positive voltage (e.g., +V volts) and binary 0 represented by a zero voltage (0 volts). Return to zero- The signal returns to zero volts (or a reference voltage) at regular intervals, specifically at the midpoint of each bit period.
 
    ![Unipolar rz](https://github.com/user-attachments/assets/7f905a06-b4e3-4b02-9a18-d75628d51178)
 
+  
    iii. Bi-phase-L (Manchester):
     There is a transition in the middle of each bit period, which allows for clock synchronization and improves reliability in noisy environments.Binary 1 is represented by a transition from a high to a low (or low to high) state in the middle of the bit period.Binary 0 is represented by a transition from a low to a high (or high to low) state in the middle of the bit period.
 
-![Screenshot_13-7-2024_81034_en wikipedia org](https://github.com/user-attachments/assets/c5ba80e6-1fab-4dea-b82b-2af452684f25)
+![Screenshot-(319)](https://github.com/user-attachments/assets/e131921f-229b-4046-8d97-dd5c6f5d0939)
+
+
 
 
 - Basic Bandpass Modulation
-  1. What is bandpass modulation?
+
+1. What is bandpass modulation?
      Bandpass modulation refers to a type of modulation where the baseband signal (which typically carries the information to be transmitted) is modulated onto a carrier signal. This process effectively shifts the frequency spectrum of the baseband signal to a higher frequency range, known as the passband.
 
- 2.What are the basic bandpass types? 
+2.What are the basic bandpass types? 
   i. Amplitude Shift Keying (ASK):
   Varies the amplitude of the carrier wave to represent binary data.
 Binary 1 might be a high amplitude, while binary 0 might be a low or zero amplitude.
@@ -140,19 +148,32 @@ Binary 1 and binary 0 are represented by different phase shifts (e.g. 0°and 180
 
 ![Screenshot_13-7-2024_72631_github com](https://github.com/user-attachments/assets/d63643db-6b46-4e50-a9f0-e39885d2be2b)
 
- 3. What is carrier signal?
-    A carrier signal is a high-frequency signal that is modulated by the baseband signal. The carrier frequency is chosen such that it lies within a certain band of frequencies, known as the passband.
+## Carrier Frequency Selection
+- What is carrier signal?
 
+    A carrier signal is a high-frequency signal that is modulated by the baseband signal. The carrier frequency is chosen such that it lies within a certain band of frequencies, known as the passband.
+ 
+![OIP](https://github.com/user-attachments/assets/14702ef0-008f-4a71-9810-8597eead46cb)
 
 
 - Carrier frequency selection
-        In telecommunications, carrier frequency refers to the frequency of a carrier wave—a periodic waveform, usually sinusoidal—that carries no information itself. Instead, it’s modified by an information-bearing signal (the modulation signal) to convey information. The carrier wave typically has a much higher frequency than the message signal. This is done to ensure propagation efficiency. The factors of selecting the carrier frequency are: Power efficiency, bandwidth efficieny, system complexity, frequency allocation and regulations.
-
+        In telecommunications, carrier frequency refers to the frequency of a carrier wave—a periodic waveform, usually sinusoidal—that carries no information itself. Instead, it’s modified by an information-bearing signal (the modulation signal) to convey information. The carrier wave typically has a much higher frequency than the message signal. This is done to ensure propagation efficiency. The factors of selecting the carrier frequency are:
+  i. Power efficiency
+  ii. bandwidth efficieny
+  iii. system complexity
+  iv. frequency allocation and regulations.
+- The  CubeSats often use frequencies allocated for amateur satellites. These fall within the VHF(Very High Frequency) band (145.8 MHz – 146.0 MHz) and the UHF(Ultra High Frequency) band (435.0 MHz – 438.0 MHz).
+- The choice of this frequency allows for relatively low-power communication, making it suitable for battery-operated devices like CubeSats. Additionally, it provides a long wireless range.
+- Hence we would be operating at 433MHz for this project.
 
 # Cubesat communication:
 ## Satellite orbital Fundamentals
   Upon launch, a satellite or spacecraft is most often placed in one of several particular orbits around Earth – or it might be sent on an interplanetary journey, meaning that it does not orbit Earth anymore, but instead orbits the Sun until its arrival at its final destination. They are of the following types : LEO (Low Earth Orbit), MEO(Medium Earth Orbit), GEO(Geostationary Orbit). Here are is the information you need to know before selecting the orbit: [ESA-TYPES OF ORBITS](https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits)
 
+  ![GEO-MEO-and-LEO-orbits](https://github.com/user-attachments/assets/ad9ad07e-69b8-4b91-b7d3-27c2ea38d93e)
+
+- CubeSats primarily operate in LEO. This is beacause lower energy requirements simplify deployment, LEO provides better communication coverage due to proximity to ground stations and CubeSats can transmit data more efficiently at shorter distances.
+  
  ## Minimum payload
    -  The payload of a satellite refers to the part that gives it its primary function or purpose. Essentially, the payload is what performs the specific tasks or functions desired from the satellite. For instance, in communication satellites, the payload includes antennas, receivers, and transmitters that facilitates communication.Given below is the minimal payload for a Cubesat.
       
@@ -171,7 +192,16 @@ Binary 1 and binary 0 are represented by different phase shifts (e.g. 0°and 180
  - LoRa (from "long range") is a physical proprietary radio communication technique. It is based on spread spectrum modulation techniques derived from chirp spread 
    spectrum (CSS) technology. It was developed by Cycleo, a company of Grenoble, France, and patented in 2014. Cycleo was later acquired by Semtech.
  -  Here is a brief information about LoRa provided by Semtech.[PDF](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/AN1200_22_Semtech_LoRa_Basics_v2_STD.pdf)
+### Spread Spectrum Principle
+- Spread spectrum refers to a technique used in telecommunications and signal processing to spread the bandwidth of a signal over a much wider range than the minimum necessary for transmission.
 
+  ![download1](https://github.com/user-attachments/assets/01af3e61-bcfd-4251-85f9-bbc32307e166)
+
+  ![download2](https://github.com/user-attachments/assets/5930ed3c-5fe9-480f-a524-ac1f5c71f291)
+
+  ![download3](https://github.com/user-attachments/assets/17891ea6-80d0-4311-ad34-9c980174d388)
+
+### LoRa Architecture
 ![lora_archtct](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/c50f5b96-2edc-4804-ac7b-1214b8ddda79)
 
 1. **Analog Front End & Data Conversion:**
