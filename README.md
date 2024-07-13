@@ -322,45 +322,49 @@ It represents the number of bits (binary digits) transmitted per unit of time (u
 - Primary mechanism of radiation is due to acceleration or decceleration of charges.
   ![Screenshot_13-7-2024_114453_www dropbox com](https://github.com/user-attachments/assets/73962d24-ffb9-4454-b42b-9e3daa8fa37c)
 
-# DAY8 (03/07/2024):
-## Antenna Basics
-- Topics covered
-  1. Radiation mechanism
-  2. Equivalent circuit
-  3. Radiation pattern
-  4. Polarization
-  5. Types of antenna
-  6. Antenna tuning
-
-# DAY9 (04/07/2024):
-## Antenna Design
-- Topics covered
-  1. VSWR
-  2. Find the ideal length of the antenna with angle 110 degree angle 433Hz
-  3. Impedance
-  4. Voltage
-  5. Current
- ## Antenna design Practical
-  1. Board preparation
-  2. Antenna tunning
-
-# DAY10 (05/07/2024):
-## Antenna making
-## Antenna 
-# LABS
- ## 💡 Arduino (LAB1):
- ### Intro to ESP32
- ### LED BLINKING:
- 1. EMBEDDED LED BLINKING
- 2. EXTERNAL LED (1) BLINKING
- 3. EXTERNAL LED (MULTIPLE) BLINKING
-
- ## 💡 Arduino(LAB2):
-  ### Dimming LED using Pulse width modulation
-  ### Switching LED on and off using serial monitor
-  ### Finding the following from ESP32 and LED datasheet
+![WhatsApp Image 2024-07-13 at 11 59 52_42b7ee8e](https://github.com/user-attachments/assets/076735be-742a-4414-9213-3def2ef80876)
+## Radiation Pattern
+- The radiation pattern of an antenna describes how the antenna radiates energy into space or receives energy from space. It is a graphical representation of the distribution of power radiated by the antenna as a function of direction. The formation of the radiation pattern is influenced by several factors, including the antenna's physical structure, the current distribution along the antenna elements, and the operating frequency.
   
-   - [ESP 32 DATASHEET](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/Datasheet-ESP32.pdf)
+![WhatsApp Image 2024-07-13 at 12 00 32_0720917d](https://github.com/user-attachments/assets/6734ee57-9767-4a7c-acd5-62a8d1b66e1c)
+
+## Polarization
+- It is the orientation of the electric field of the radiated electromagnetic wave. It is a key parameter in antenna design and communication systems, as it affects how antennas transmit and receive signals. The polarization of an antenna must match the polarization of the incoming or outgoing signals for optimal performance.
+
+![WhatsApp Image 2024-07-13 at 12 00 45_3e376da1](https://github.com/user-attachments/assets/ae00358f-40a4-4ca3-9696-70d33d078104)
+
+## Antenna tuning
+- Tuning an antenna involves adjusting its physical parameters or electronic components to ensure it resonates at the desired frequency or frequencies, providing optimal performance for transmitting and receiving signals. Proper tuning minimizes impedance mismatch, maximizes signal strength, and reduces standing wave ratio (SWR).
+
+# Tiny GS
+![OIP](https://github.com/user-attachments/assets/a675052c-db5d-4912-bb31-9e29cd82139b)
+- TinyGS is an open-source global satellite network that empowers space enthusiasts to become pioneers. By building their own Tiny Ground Stations, users can collect vital data, prevent collisions, and join a community of citizen scientists.
+![Screenshot_13-7-2024_121855_tinygs com](https://github.com/user-attachments/assets/4d330214-04c9-44df-bf55-3149a921bbee)
+
+
+  
+  
+
+# Lab 1: Intro to ESP32 Programming
+
+Install and configure Arduino IDE
+![OIP (1)](https://github.com/user-attachments/assets/fafb3d14-e41e-40bb-b8c2-84806b7ccb2c)
+
+Introduction to ESP32 development kit.
+Write and execute a C-code to blink an LED on the dev board.
+
+![WhatsApp Image 2024-07-13 at 11 11 49_1466db4e](https://github.com/user-attachments/assets/20a0eda7-afc3-4661-b1f4-7770e8d21ce3)
+
+# Lab 2: Intro to GPIO programming
+
+In this Lab exercise, students learn to configure a GPIO as an output and control an LED with it.
+![Esp32-pin-description-Recommended-reading-ESP32-Pinout-Reference-Which-GPIO-pins-should_Q640](https://github.com/user-attachments/assets/f8ba5036-30ea-4cb7-913b-a693c809754e)
+![WhatsApp Image 2024-07-13 at 11 11 49_e7fc46cb](https://github.com/user-attachments/assets/98ad1692-089e-41a2-ac9c-d09613b1d226)
+
+# Lab 3: Dimming LED using PWM
+
+In this exercise we are going to use the ESP32 to control the light intensity of an external LED using PWM signal.
+ - [ESP 32 DATASHEET](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/Datasheet-ESP32.pdf)
    - [LED DATASHEET](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/Datasheet-LED-XLMR01DE.pdf)
 
       1. For LED:
@@ -382,62 +386,9 @@ It represents the number of bits (binary digits) transmitted per unit of time (u
      | Maximum current that GPIO can source from supply to load | 40mA |
      | Resistance in the circuit | 105 Ohms |
 
-     ## ARDUINO (LAB3):
-1. Serial monitor print function
-2. OLED print function
-
-    ## ARDUINO (LAB4)
- 1. Humidity and temperature sensor (DHT) using serial monitor
- 2. Humidity and temperature sensor (DHT) using OLED
-
-    ## ARDUINO (LAB5):
-1. LoRa Sender
-2. LoRa Receiver
-
- ## 4nec2 (LAB1):
-  1. Dipole in free space
-  2. Loaded dipole in free space
-
-   ## 4nec2 (LAB2):
-1. Inverted V over ground
-2. V dipole simulation
-
-# Lab 1: Intro to ESP32 Programming
-
-Install and configure Arduino IDE
-Introduction to ESP32 development kit.
-Write and execute a C-code to blink an LED on the dev board.
-
-# Lab 2: Intro to GPIO programming
-
-In this Lab exercise, students learn to configure a GPIO as an output and control an LED with it.
-
-# Lab 3: Dimming LED using PWM
-
-In this exercise we are going to use the ESP32 to control the light intensity of an external LED using PWM signal.
-From the LED Datasheet tabulate the following data:
-Maximum Forward current (If)
-Typical Forward Voltage (Vf)
-Dominant Wavelength (lambdaD)
-Estimate the color (RGB) from the above wavelength
-Typical Cacpacitance (pF)
-Operating temperature range
-From the ESP32 Datasheet find and tabulate:
-the maximum output voltage of the GPIO pins, and
-the maximum current that the GPIO can source from supply to the load.
-Calculate the value of the resistance to pass half of the Maximum forward current (If) when ON.
-Make sure this current can be sourced by the output port.
-Find the closest E12 standardized resistors value available in the market to use for the above limiter.
-See this guide on resistor standardization.
-Calculate the maximum frequency you can switch the LED such that, the RC time-constant of the LED-cap-resitor is at least 1/25 of the switching period.
-Find out what is the minimum frequency you can switch the LED.
-Decide on a frequency which is safely in between the minimum and maximum.
-Write a program for ESP32:
-Assign an output port for the LED
-Assign an input port for 2-step dimmer control.
-1: Full intensity, 0: 25-percent intensity.
 Write a program to control the LED intensity using Pulse-Width Modulation (PWM).
 # Lab 4: Dimming multiple LEDs
+![WhatsApp Image 2024-07-13 at 11 11 49_1466db4e](https://github.com/user-attachments/assets/43dfacc6-04e9-4e2f-a608-0137bfc2e2a0)
 
 ESP32 GPIO pins were used to dim multiiple LEDs with different delays.
 # Lab 5: Printing data in the serial monitor
@@ -450,27 +401,201 @@ The Arduino IDE 2 has the Serial Monitor tool integrated with the editor, which 
 Controlling an LED connected to ESP32 by reading commands from the serial monitor and turning the LED on or off based on those commands.
 
 # Lab 7: I2C-based OLED Display control
+![WhatsApp Image 2024-07-13 at 11 11 50_ca4fb795](https://github.com/user-attachments/assets/0503d785-f6c4-42de-a8f1-20ba65bbfcb2)
 
 I2C-based OLED pin details. Importing OLED libraries. Structure of the OLED. Displaying simple Text and Scrolling Text in different ways.
 # Lab 8: Introduction Signal Processing using Python
+![348232059-58df6f40-b9b0-467f-bd31-57e3e06bcbbb](https://github.com/user-attachments/assets/2bb94bf5-093f-4886-97f6-e46ce27893c1)
+![348231785-b73f870f-4485-4439-9b65-15f2b836a168](https://github.com/user-attachments/assets/f2ff2a55-c6bc-4c4f-b516-d18590ab39c5)
+```C
+import numpy as np
+import matplotlib.pyplot as plt
 
-You can use lab1-fft.py and lab2-fsk.py as reference for the following exercises:
-Write a python program to create a cosine wave of frequency 2MHz with 256 samples per cycle.
-Plot it with proper annonation and axis labeling.
-Compute the FFT of the above signal and plot it.
-You will notice the FFT resolution is very limited for a single cycle.
-Create another a signal of frequency 3MHz, add it to above signal and do FFT for the resultant signal.
-Simulate lab2-fsk.py and anlayze the plot to understand FSK modulation.
-Change the code such that the modulation frequency for 1 is 4MHz and for 0 it is 3MHz.
-Change the above code to simulate ASK modulation.
-Add demodulation to the above code and plot the time-domain waveform, as well as the FFT of the demodulated signal.
-Add a moving average filter to remove the high-frequency component from the demodulated signal.
+#Parameters
+f_signal = 2e6  # 2 MHz signal frequency
+fs = 0.5e9     # Sampling frequency (0.5 GHz)
+num_samples = 256  # Number of samples
+total_time = 500e-9  # Total time duration (500 ns)
+time_period = 0.5e-6  # Time period of the signal (0.5 microseconds)
+
+#Time vector
+t = np.linspace(0, total_time, num_samples, endpoint=False)
+
+#Generate sine wave
+signal = np.sin(2 * np.pi * f_signal * t)
+
+#Plotting
+plt.figure(figsize=(10, 6))
+plt.plot(t * 1e9, signal)  #, marker='o')
+plt.title('2 MHz Sine Wave')
+plt.xlabel('Time (ns)')
+plt.ylabel('Amplitude')
+plt.grid(True)
+plt.show()
+
+plt.tight_layout()
+plt.show()
+plt.savefig("lab-fsk.png")
+
+```
+Modulation
+```python
+#!/usr/bin/env python3
+
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.fft import fft, fftfreq
+## For saving plots to a file. Just couldn't get it to work from commandline
+import matplotlib
+matplotlib.use('Agg')
+
+# Parameters
+fc0 = 4e6        # 1 Carrier Frequency
+fc1 = 2e6        # 0 Carrier Frequency
+fs = 256*4e6    # Sampling frequency
+ncycl = 512          # No of cycles of fc 
+nfc0 = 8        # number of fc0 cycles for one symbol
+Tsim = ncycl/fc0       # Total Simulation time
+t = np.arange(0, Tsim, 1/fs)  # Time vector
+
+# Message signal (binary data)
+data = np.random.randint(0, 2, int(ncycl/nfc0))  # Random binary data
+nupData = int(t.size/data.size) 
+data = np.repeat(data, nupData)  # Upsample binary data
+
+# FSK Modulation
+modulated_signal = np.zeros_like(t)
+for i in range(len(t)):
+    if data[i] == 0:
+        modulated_signal[i] = np.cos(2 * np.pi * fc0 * t[i])
+    else:
+        modulated_signal[i] = np.cos(2 * np.pi * fc1 * t[i])
+
+# FFT of the modulated signal
+N = len(modulated_signal)
+yf = fft(modulated_signal)
+xf = fftfreq(N, 1 / fs)
+
+# modulation
+# Parameters for modulation
+threshold = 0  # Decision threshold for modulation
+
+# modulated data array
+modulated_data = np.zeros_like(data)
+
+# modulation loop
+for i in range(len(t)):
+    if np.cos(2 * np.pi * fc0 * t[i]) > threshold:
+        modulated_data[i] = 0
+    else:
+        modulated_data[i] = 1
+
+# Ensure demodulated data has the correct length (may be longer due to upsampling)
+modulated_data = modulated_data[:data.size]
+
+# Plotting
+fig, axs = plt.subplots(4, 1, figsize=(10, 16))
+
+axs[0].plot(t, data)
+axs[0].set_title('Original Binary Data')
+axs[0].set_xlim([0, Tsim])
+axs[0].set_ylim([-0.2, 1.2])
+
+axs[1].plot(t, modulated_signal)
+axs[1].set_title('FSK Modulated Signal')
+axs[1].set_xlim([0, Tsim])
+
+axs[2].plot(xf, np.abs(yf))
+axs[2].set_title('FFT of Modulated Signal')
+axs[2].set_xlim([0, 2*fc0])
+axs[2].set_xlabel('Frequency (Hz)')
+
+axs[3].plot(t, modulated_data, marker='o', linestyle='-', color='b')
+axs[3].set_title('modulated Binary Data')
+axs[3].set_xlabel('Time (s)')
+axs[3].set_ylabel('Binary Value')
+axs[3].set_xlim([0, Tsim])
+axs[3].set_ylim([-0.2, 1.2])
+axs[3].grid(True)
+
+plt.tight_layout()
+plt.savefig("fsk-lab2.png")
+plt.show()
+```
+![348231902-f42470f5-bce1-44cc-8887-c178199f7a58](https://github.com/user-attachments/assets/29bd7b65-67b0-44d7-8d4c-8ec8e1d4056d)
+Demodulation
+```python
+
+# Parameters
+fc0 = 4e6        # 1 Carrier Frequency
+fc1 = 2e6        # 0 Carrier Frequency
+fs = 256*4e6    # Sampling frequency
+ncycl = 512          # No of cycles of fc
+nfc0 = 8        # number of fc0 cycles for one symbol
+Tsim = ncycl/fc0       # Total Simulation time
+t = np.arange(0, Tsim, 1/fs)  # Time vector
+
+# Message signal (binary data)
+data = np.random.randint(0, 2, int(ncycl/nfc0))  # Random binary data
+nupData = int(t.size/data.size)
+data = np.repeat(data, nupData)  # Upsample binary data
+
+print(data.size, t.size)
+
+# FSK Modulation
+modulated_signal = np.zeros_like(t)
+for i in range(len(t)):
+    if data[i] == 0:
+        modulated_signal[i] = np.cos(2 * np.pi * fc0 * t[i])*np.cos(2 * np.pi * fc0 * t[i])
+    else:
+        modulated_signal[i] = np.cos(2 * np.pi * fc1 * t[i])*np.cos(2 * np.pi * fc0 * t[i])
+
+# FFT of the modulated signal
+N = len(modulated_signal)
+yf = fft(modulated_signal)
+xf = fftfreq(N, 1 / fs)
+
+# Plotting
+fig, axs = plt.subplots(3, 1, figsize=(10, 12))
+
+axs[0].plot(t, data)
+axs[0].set_title('Original Binary Data')
+axs[0].set_xlim([0, Tsim])
+#axs[0].set_ylim([-0.2, 1.2])
+
+axs[1].plot(t, modulated_signal)
+axs[1].set_title('FSK DeModulation')
+axs[1].set_xlim([0, Tsim])
+                                                                                                                                                        axs[2].plot(xf, np.abs(yf))
+axs[2].set_title('FFT of DeModulated Signal')
+axs[2].set_xlim([0, 2*fc0])
+axs[2].set_xlabel('Frequency (Hz)')
+
+plt.tight_layout()
+plt.savefig("fsk-demodulation-lab2.png")
+plt.show()
+```
+![348231954-7835a516-0691-4310-8959-ea1308133588](https://github.com/user-attachments/assets/e90cb25f-9c7d-4e50-b0ac-f1ec86182f7a)
+
 # Lab 9: I2C temperature sensor interface
+![image](https://github.com/user-attachments/assets/504a7934-30dd-4400-8d51-bb5b624b3111)
 
 Display of room temperature and humidity through OLED as well as serial monitor using DHT22 with ESP32.
 # Lab 10: Introduction to LoRa module
 
 Introduction to architecture and pin configuration of Ra-02 Lora transceiver module and SPI (Serial Peripheral Interface) communication.
+| Module Pin | 	Arduino Pin |
+| VCC |	3.3V |
+| GND	| GND |
+| SCK |	Pin 13 |
+| MOSI	| Pin 11 |
+| MISO	| Pin 12 |
+| NSS	| Pin 10 |
+| RESET	| Pin 9 |
+| DIO0	| Pin 2 |
+Ra-02 (SX1278)
+
+Frequency: 433/868/915 MHz Range: Up to 15 km in rural areas Interface: SPI Commonly used with Arduino and ESP32.
 # Lab 11: LoRa communication
 
 Introduction to Lora communication using Ra-02 Lora transceiver module with ESP32.
@@ -479,14 +604,181 @@ Introduction to Lora communication using Ra-02 Lora transceiver module with ESP3
 Sending Text packets and receiving the text packets with *RSSI (Received Signal
 Strength Indicator)* and SNR through Serial monitor.
 Sending Temperature and humidity packets and receiving the same packets with RSSI (Received Signal Strength Indicator) and SNR through a Serial monitor as well as an OLED display.
+Sender
+```python
+#include<SPI.h>
+#include<LoRa.h>
+
+//std configuration
+//#define DIO0 2
+//#define RST 14
+//#define NSS 3
+//#define MOSI 23
+//#define MISO 19
+//#define SCLK 18
+
+#define DIO0 26
+#define RST 14
+#define NSS 18
+#define MOSI 27
+#define MISO 19
+#define SCLK 5
+
+int counter=0;
+
+void setup(){
+  //initiliazing serial monitor
+  Serial.begin(115200);
+  while(!Serial);
+  Serial.println("LoRa Sender");
+
+  //setup LoRa tranceiver module
+  SPI.begin(SCLK,MISO,MOSI,NSS);
+  LoRa.setPins(NSS,RST,DIO0);
+
+  //replace the lora.begin(---E-)
+  // 433E6 FOR ASIA
+  // 866E6 FOR EUROPE
+  // 915E6 FOR NORTH AMERICA
+while(!LoRa.begin(433E6)){
+  Serial.println(".");
+  delay(500);
+}
+//change sync word 0xF3 to match reciever
+//the sync word assures you dont gets LoRa message from other LoRa transceiver
+//ranges from 0-0xFF
+LoRa.setSyncWord(0XF3);
+Serial.println("LoRa Initializing OK !");
+}
+
+void loop(){
+  Serial.println("sending packet");
+  Serial.println(counter);
+
+  //send LoRa packet to recieve
+
+  LoRa.beginPacket();
+  LoRa.print("hello...");
+  LoRa.print(counter);
+  LoRa.endPacket();
+
+  counter++;
+
+  delay(1000);
+}
+```
+Receiver
+```python
+#include<SPI.h>
+#include<LoRa.h>
+
+//std configuration
+//#define DIO0 2
+//#define RST 14
+//#define NSS 3
+//#define MOSI 23
+//#define MISO 19
+//#define SCLK 18
+
+#define DIO0 26
+#define RST 14
+#define NSS 18
+#define MOSI 27
+#define MISO 19
+#define SCLK 5
+
+
+void setup(){
+  //initiliazing serial monitor
+  Serial.begin(115200);
+  while(!Serial);
+  Serial.println("LoRa Sender");
+
+  //setup LoRa tranceiver module
+  SPI.begin(SCLK,MISO,MOSI,NSS);
+  LoRa.setPins(NSS,RST,DIO0);
+
+  //replace the lora.begin(---E-)
+  // 433E6 FOR ASIA
+  // 866E6 FOR EUROPE
+  // 915E6 FOR NORTH AMERICA
+while(!LoRa.begin(433E6)){
+  Serial.println(".");
+  delay(5000);
+}
+//change sync word 0xF3 to match reciever
+//the sync word assures you dont gets LoRa message from other LoRa transceiver
+//ranges from 0-0xFF
+LoRa.setSyncWord(0XF3);
+Serial.println("LoRa Initializing OK !");
+}
+
+void loop() {
+  // try to parse packet
+  int packetsize = LoRa.parsePacket();
+  if(packetsize){
+    Serial.println("Recieving Packet:");
+  }
+  while(LoRa.available()){
+    String LoRaData = LoRa.readString();
+    Serial.print(LoRaData);
+  }
+    Serial.print("`with RSSI");
+    // RSSI - recieved signal strength indicator
+    Serial.print(LoRa.packetRssi());
+    Serial.println("C");
+  }
+  ```
+
 # Lab 13: LoRa one-to-many communication setup
 
 Sending data packets from one Lora transmitter to multiple Lora receivers and retracing the same packets.
+
 # Lab 14: Introduction to antenna modeling and simulation software 4NEC2.
+4NEC2 is a popular antenna modeling and simulation tool based on the Numerical Electromagnetics Code (NEC). It allows users to design, analyze, and optimize antennas by simulating their performance in various configurations.
+
+Key Features
+Easy to Use: User-friendly interface suitable for beginners and experienced users alike.
+
+Versatile Modeling: Supports various antenna types, including dipoles, Yagi-Uda, and more complex designs.
+
+Visual Representation: Provides graphical visualization of antenna geometry and radiation patterns.
+
+Post-Processing: Allows for in-depth analysis of results, including gain, radiation patterns, and impedance.
 
 # Lab 15: Physical design of Dipole and V-dipole antennas
+![WhatsApp Image 2024-07-05 at 15 33 26_f1340ef6](https://github.com/user-attachments/assets/8a7c26d3-d262-4b83-b1e1-44694de1d695)
 
 Tune it to 433MHz with the help of NanoVNA-A Portable VNA Antenna Analyzer Kit with 10KHz-1.5GHz, 2.8 Inch Digital LCD Display Touching Screen Standing Wave Measuring Instrument.
+
+CM Example new : Loaded dipole in free space CM antenna design.txt CE ' End of comment '
+
+SY ylen=.1392 ' Symbol: Length for WL/2 SY zlen=.0975 SY ysma=.004095 SY zsma=.002867 '
+
+GW 1 9 0 -ylen zlen 0 -ysma zsma .0001 ' Wire 1, 9 segments, halve wavelength long. GW 2 9 0 ysma zsma 0 ylen zlen .0001 ' Wire 2, 9 segments, halve wavelength long. GW 3 1 0 -ysma zsma 0 ysma zsma .0001 ' Wire 3, 9 segments, halve wavelength long GE 0 ' End of geometry '
+
+LD 5 1 0 0 5.8001E7 ' Wire conductivity LD 5 2 0 0 5.8001E7 LD 5 3 0 0 5.8001E7
+
+'
+
+EX 0 3 1 0 1 0 ' Voltage source (1+j0) at wire 1 segment 5.
+
+FR 0 1 0 0 433 0 ' Set design frequency (433 Mc).
+
+EN ' End of NEC input
+
 # Lab 16: Introduction to TinyGS
+Tiny GS (Tiny Ground Station) is an open-source global network of ground stations designed to receive data from satellites. This network allows enthusiasts, researchers, and educational institutions to contribute and access satellite data, enhancing the ability to monitor and analyze various satellite signals and data transmissions.
+![OIP](https://github.com/user-attachments/assets/9cd52177-94de-464a-9f69-3d91aea3afc2)
+
+![Screenshot_13-7-2024_121855_tinygs com](https://github.com/user-attachments/assets/c85e07e5-4a1a-4cbd-9b77-d0a5f65bad20)
 
 # Lab 17: Setting up a TinyGS ground station
+![WhatsApp Image 2024-07-13 at 11 13 14_9e75c9f2](https://github.com/user-attachments/assets/05a82709-37f0-4955-9f01-fca33464c3fd)
+
+![WhatsApp Image 2024-07-13 at 11 12 00_6ea4adc3](https://github.com/user-attachments/assets/56326bbc-88d8-49b2-a839-a1e7a082c498)
+
+![WhatsApp Image 2024-07-13 at 11 11 59_883686fc](https://github.com/user-attachments/assets/4d911559-a3c2-42e4-aa52-2a656b3a4548)
+
+Here is the information about all the packets we received.[Packets]()
+
