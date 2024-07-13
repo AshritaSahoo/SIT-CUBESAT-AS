@@ -7,10 +7,6 @@ This is a repository for Summer Internship 2024 on Cubesat and satellite design.
 - The Summer Internship of 2024 on "Introduction to Cubesats and Satellite Communication", serves as a comprehensive educational platform. Specifically targeting students and enthusiasts interested in CubeSat and satellite communication technologies. It provides a structured learning path through a series of practical labs and projects, each focusing on different aspects of satellite technology. We engaged in an intensive study on CubeSat fundamentals, satellite communication principles, LoRa protocol applications and antenna design. This was done through hands-on lab exercises dedicated to signal processing using Python, ESP32 platforms using Arduino IDE, configuring TinyGS ground stations, and simulating antenna designs using 4NEC2 software. This equipped us with essential skills in handling and analyzing signals, a critical component in satellite communications. The course aims to bridge the gap between theoretical knowledge and practical application, preparing the students for the field of satellite technology and communication.
 
 # Introduction
-Certainly! Here's an introduction for the internship program:
-
----
-
 **Introduction to CubeSat and Satellite Communication Internship Program**
 
 Welcome to the CubeSat and Satellite Communication Internship Program at Silicon University. This program is designed to provide participants with comprehensive knowledge and practical skills in the rapidly evolving field of CubeSat technology and satellite communication.
