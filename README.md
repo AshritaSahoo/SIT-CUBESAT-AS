@@ -604,7 +604,9 @@ Display of room temperature and humidity through OLED as well as serial monitor 
 # Lab 10: Introduction to LoRa module
 
 Introduction to architecture and pin configuration of Ra-02 Lora transceiver module and SPI (Serial Peripheral Interface) communication.
+
 | Module Pin | 	Arduino Pin |
+| ---------- | ------------ |
 | VCC |	3.3V |
 | GND	| GND |
 | SCK |	Pin 13 |
