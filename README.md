@@ -166,6 +166,24 @@ Binary 1 and binary 0 are represented by different phase shifts (e.g. 0°and 180
 - The choice of this frequency allows for relatively low-power communication, making it suitable for battery-operated devices like CubeSats. Additionally, it provides a long wireless range.
 - Hence we would be operating at 433MHz for this project.
 
+  ## FFT
+  - FFT analysis is one of the most used techniques when performing signal analysis across several application domains. FFT transforms signals from the time domain to the frequency domain. FFT is the abbreviation of Fast Fourier Transform.
+
+Using FFT analysis, numerous signal characteristics can be investigated to a much greater extent than when inspecting the time domain data. In the frequency domain, the signal characteristics are described by independent frequency components, wherein the time domain it is described by one waveform, containing the sum of all characteristics.
+
+![freqtime-350x244](https://github.com/user-attachments/assets/9db5f2fb-8aa9-4fff-b6fb-a72d01a2c2c4)
+
+## Bandwidth
+- Bandwidth refers to the range of frequencies over which a signal, channel, or communication system can operate effectively. It represents the capacity for transmitting data within a given frequency range.
+- In digital systems (e.g., internet connections), bandwidth affects data transfer rates. Higher bandwidth enables faster downloads and smoother streaming.
+- Bandwidth is typically measured in hertz (Hz) or its multiples
+
+## Bit Rate:
+- Bit rate, also known as data rate, refers to the rate at which data is transmitted or processed.
+It represents the number of bits (binary digits) transmitted per unit of time (usually seconds).
+
+- Bit rate is typically measured in bits per second (bps) or its multiples
+
 # Cubesat communication:
 ## Satellite orbital Fundamentals
   Upon launch, a satellite or spacecraft is most often placed in one of several particular orbits around Earth – or it might be sent on an interplanetary journey, meaning that it does not orbit Earth anymore, but instead orbits the Sun until its arrival at its final destination. They are of the following types : LEO (Low Earth Orbit), MEO(Medium Earth Orbit), GEO(Geostationary Orbit). Here are is the information you need to know before selecting the orbit: [ESA-TYPES OF ORBITS](https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits)
@@ -199,7 +217,15 @@ Binary 1 and binary 0 are represented by different phase shifts (e.g. 0°and 180
 
   ![download2](https://github.com/user-attachments/assets/5930ed3c-5fe9-480f-a524-ac1f5c71f291)
 
+- Spreading factor:
+  The spreading factor is a critical parameter in LoRa-based communication systems.LoRa uses Chirp Spread Spectrum (CSS) technology, where chirps (symbols) carry data. The spreading factor controls the chirp rate, which, in turn, affects the speed of data transmission.
   ![download3](https://github.com/user-attachments/assets/17891ea6-80d0-4311-ad34-9c980174d388)
+
+### SNR(Signal to Noise Ratio) and RSSI (Received signal strangth Indicator)
+- SNR is the ratio of the signal power to the noise power. A higher SNR indicates a stronger signal relative to noise, leading to better communication quality.
+- RSSI is a measurement of how well your device can hear a signal from an access point or router. The greater the RSSI value, the stronger the signal.
+- For SNR>0: RSSI or Packet Strength (dBm)= -164+RSSI
+- For SNR<0: RSSI= -164+ PacketRSSI+0.25*PacketSNR
 
 ### LoRa Architecture
 ![lora_archtct](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/c50f5b96-2edc-4804-ac7b-1214b8ddda79)
@@ -233,6 +259,9 @@ Binary 1 and binary 0 are represented by different phase shifts (e.g. 0°and 180
    - **PA:** Boosts signal strength before transmission.
    - **PLL:** Used in frequency synthesis and clock generation.
    - **OSC:** Generates periodic signals.
+### Properties of LoRa:
+
+![LoRa](https://github.com/user-attachments/assets/34634962-4c3d-47c8-99e1-6c7914efd861)
 
 ## ESP32
 - The ESP32 is a versatile System on Chip (SoC) microcontroller developed by Espressif Systems. [ESP32 REFERENCE MANUAL](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/Datasheet-ESP32.pdf)
@@ -257,6 +286,10 @@ Binary 1 and binary 0 are represented by different phase shifts (e.g. 0°and 180
    Data Transfer: Data is shifted out of the master to the slave via MOSI, while data from the slave is shifted into the master via MISO, synchronized by the clock.
    End Communication: The master deselects the slave by pulling the Chip Select line high.  
 
+![SPI](https://github.com/user-attachments/assets/d29ffd79-a61d-4ad9-86c3-96a23fdfb21d)
+
+![SPI ACCESS](https://github.com/user-attachments/assets/41679ba7-34e9-4690-a8ac-cb47e000419a)
+
 ## Communication process
  - All those devices come together to form a communication system between the satellite(CubeSat) and the ground station consisting of the LoRa module and ESP32.
    
@@ -266,41 +299,28 @@ Binary 1 and binary 0 are represented by different phase shifts (e.g. 0°and 180
 - The ESP32 Dev kit is connected to the LoRa RF module via SPI and uploads the data to the internet with WiFi.
 - This data can be extracted from the Tiny GS website which is an open-source global satellite network that empowers space enthusiasts to become pioneers.
 
+# Introduction to VLSI
+- VLSI  stands for Very-Large-Scale Integration, a process of creating integrated circuits by combining thousands to millions of transistors onto a single chip. It revolutionized the field of electronics by making devices smaller, faster, and more energy-efficient. VLSI technology is the foundation for modern microprocessors, memory chips, and other complex integrated circuits used in a wide range of applications, from consumer electronics to advanced computing systems.
+
+![vlsi](https://github.com/user-attachments/assets/8d8e3818-4c7f-4c72-b151-53ffc03a1fa2)
+
+# CONCEPT OF ANTENNAS
+- An antenna is a device used to transmit and receive electromagnetic waves. It is a critical component in communication systems, enabling the transmission of data over distances without the need for physical connections. Antennas operate based on the principle of electromagnetic wave propagation. When a current flows through the antenna, it generates an electromagnetic field that radiates outwards. Conversely, when electromagnetic waves impinge on the antenna, they induce a current that can be detected and processed by the receiver.
+
+## Types of Antennas
+ - Wire Antennas
+   ![Screenshot_13-7-2024_11473_www dropbox com](https://github.com/user-attachments/assets/5a81bdf5-2165-43f2-9f56-df4e1d9c532f)
+ - Aperture Antennas
+    ![Screenshot_13-7-2024_114812_www dropbox com](https://github.com/user-attachments/assets/12382759-c2d9-4be8-8abf-0f442174fef9)
+ - Microstrip Antennas
+ ![Screenshot_13-7-2024_115214_www dropbox com](https://github.com/user-attachments/assets/93b10ec6-9575-4d12-8f76-9a28f1219db1)
+ - Array antennas
+![Screenshot_13-7-2024_115244_www dropbox com](https://github.com/user-attachments/assets/6e8ddbe7-47e8-493d-9bc6-16eed183ba00)
 
 
-
-# DAY5 (29/06/2024)
-## Python programming
-- Topics covered
-  1. Plotting graphs for FFT and FSK
-  2. Conversion of FSK to ASK
-  3. SNR(Signal to noise ratio)
-  4. Modulation to Demodulation conversion
-
-
-
-# DAY6 (01/07/2024):
-## CMOS VLSI design
-- Topics covered
-  1. Introduction to CMOS VLSI design
-  2. Anatomy of ELectronic System: Mobile Phone
-  3. Capacitive MEMS microphone
-  4. Piezoelectric MEMS microphone
-  5. IMU and gyroscope
-  6. AFE
-  7. Custom (Analog/Digital) IC design flow
-
-
-# DAY7 (02/07/2024):
-## LoRa Basics
-- Topics Covered
-  1. Spread-Spectrum Modem
-  2. LoRa Basics
-  3. Spreading factor
-  4. BW
-  5. SNR
-  6. Bit Rate
-
+## Radiation Mechanism
+- Primary mechanism of radiation is due to acceleration or decceleration of charges.
+  ![Screenshot_13-7-2024_114453_www dropbox com](https://github.com/user-attachments/assets/73962d24-ffb9-4454-b42b-9e3daa8fa37c)
 
 # DAY8 (03/07/2024):
 ## Antenna Basics
