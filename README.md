@@ -1,10 +1,10 @@
-# 🛰️ SIT-CUBESAT-AS
-This is a repository for Summer Internship 2024 on Cubesat and satellite design.
+# 🛰️ INTRODUCTION TO CubeSat AND SATELLITE COMMUNICATION
+This is a repository for Summer Internship 2024 on CubeSat and satellite communication. 
 
 ![csli_compliation_gif](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/3820da19-6765-4852-aaad-118c62928095)
 
 # ABSTRACT
-- The Summer Internship of 2024 on "Introduction to Cubesats and Satellite Communication", serves as a comprehensive educational platform. Specifically targeting students and enthusiasts interested in CubeSat and satellite communication technologies. It provides a structured learning path through a series of practical labs and projects, each focusing on different aspects of satellite technology. We engaged in an intensive study on CubeSat fundamentals, satellite communication principles, LoRa protocol applications and antenna design. This was done through hands-on lab exercises dedicated to signal processing using Python, ESP32 platforms using Arduino IDE, configuring TinyGS ground stations, and simulating antenna designs using 4NEC2 software. This equipped us with essential skills in handling and analyzing signals, a critical component in satellite communications. The course aims to bridge the gap between theoretical knowledge and practical application, preparing the students for the field of satellite technology and communication.
+- The Summer Internship of 2024 on "Introduction to CubeSats and Satellite Communication", serves as a comprehensive educational platform. Specifically targeting students and enthusiasts interested in CubeSat and satellite communication technologies. It provides a structured learning path through a series of practical labs and projects, each focusing on different aspects of satellite technology. We engaged in an intensive study on CubeSat fundamentals, satellite communication principles, LoRa protocol applications and antenna design. This was done through hands-on lab exercises dedicated to signal processing using Python, ESP32 platforms using Arduino IDE, configuring TinyGS ground stations, and simulating antenna designs using 4NEC2 software. This equipped us with essential skills in handling and analyzing signals, a critical component in satellite communications. The course aims to bridge the gap between theoretical knowledge and practical application, preparing the students for the field of satellite technology and communication.
 
 # Introduction
 **Introduction to CubeSat and Satellite Communication Internship Program**
@@ -42,8 +42,8 @@ Throughout this internship, we went through the following aspects of Satellite c
 
 #  Introductory talk by Harrish Kesavan:
 - He is a core team member of To Space.
-- His talk about Exploring pocket cube satellites gave off small satellites, big impact vibes.
-- A PocketCube is a type of miniaturized satellite designed for space research. These tiny satellites typically have 
+- His talk about Exploring PocketQube satellites gave off small satellites, big impact vibes.
+- A PocketQube is a type of miniaturized satellite designed for space research. These tiny satellites typically have 
   a cube shape with 5 cm sides (one-eighth the volume of a CubeSat) and weigh no more than 250 grams. They often    
   use commercial off-the-shelf components for their electronics. Despite their small size, PocketQubes are capable 
    of performing various tasks, from Earth observation and amateur radio communications to scientific research and 
@@ -55,8 +55,8 @@ Throughout this internship, we went through the following aspects of Satellite c
 
 
 # Cubesat Basics:
-## Introduction to CUBESAT : Basic concepts and processes
- - What is a cubesat?
+## Introduction to CubeSat : Basic concepts and processes
+ - What is a CubeSat?
 
    A CubeSat is a class of small satellite with a form factor of 10 cm (3.9 in) cubes. These tiny satellites have a 
    mass of no more than 2 kg (4.4 lb) per unit and often use commercial off-the-shelf (COTS) components for their 
@@ -64,13 +64,13 @@ Throughout this internship, we went through the following aspects of Satellite c
    secondary payloads on a launch vehicle. They’re employed for various purposes, including Earth observation, 
    testing new communications technology, and performing miniature experiments
   
-- Why CUBESAT?
+- Why CubeSat?
   
    CubeSats began as a collaborative effort in 1999 between Jordi Puig-Suari, a professor at California Polytechnic 
    State University (Cal Poly), and Bob Twiggs, a professor at Stanford University’s Space Systems Development 
    Laboratory (SSDL). The original intent of the project was to provide affordable access to space for the university science community, and it has successfully done so. Now these are also used for various other experiments like testing instruments, enabling commercial applications,disaster response to climate monitoring.Supporting advanced mission concepts using constellations or swarms.
 
-- Cubesat making procedure according to [NASA CubeSat-101 CSLI](https://www.bing.com/ck/a?!&&p=4d30e5cf239c36d9JmltdHM9MTcyMDU2OTYwMCZpZ3VpZD0yMTM2NjU1Yy00NTJhLTZkNWItMWNlOS03MWM4NDRmZjZjYjEmaW5zaWQ9NTIxMg&ptn=3&ver=2&hsh=3&fclid=2136655c-452a-6d5b-1ce9-71c844ff6cb1&psq=nasa+cubesat+pdf&u=a1aHR0cHM6Ly93d3cubmFzYS5nb3Yvd3AtY29udGVudC91cGxvYWRzLzIwMTcvMDMvbmFzYV9jc2xpX2N1YmVzYXRfMTAxXzUwOC5wZGY&ntb=1).
+- CubeSat making procedure according to [NASA CubeSat-101 CSLI](https://www.bing.com/ck/a?!&&p=4d30e5cf239c36d9JmltdHM9MTcyMDU2OTYwMCZpZ3VpZD0yMTM2NjU1Yy00NTJhLTZkNWItMWNlOS03MWM4NDRmZjZjYjEmaW5zaWQ9NTIxMg&ptn=3&ver=2&hsh=3&fclid=2136655c-452a-6d5b-1ce9-71c844ff6cb1&psq=nasa+cubesat+pdf&u=a1aHR0cHM6Ly93d3cubmFzYS5nb3Yvd3AtY29udGVudC91cGxvYWRzLzIwMTcvMDMvbmFzYV9jc2xpX2N1YmVzYXRfMTAxXzUwOC5wZGY&ntb=1).
    The following are the step by step procedure that needs to be followed while building a CubeSat to the point of launching it into the space, provided by NASA CSLI(CubeSat Launch Initiative):
   
    1. Concept Development
@@ -179,13 +179,12 @@ Binary 1 and binary 0 are represented by different phase shifts (e.g. 0°and 180
   iii. system complexity
   iv. frequency allocation and regulations.
 - The  CubeSats often use frequencies allocated for amateur satellites. These fall within the VHF(Very High Frequency) band (145.8 MHz – 146.0 MHz) and the UHF(Ultra High Frequency) band (435.0 MHz – 438.0 MHz).
-- The choice of this frequency allows for relatively low-power communication, making it suitable for battery-operated devices like CubeSats. Additionally, it provides a long wireless range.
-- Hence we would be operating at 433MHz for this project.
+- The choice of this frequency allows for relatively low-power communication, making it suitable for battery-operated devices like CubeSats. Additionally, it provides a long wireless ranExa- Hence we would be operating at 433MHz for this project.
 
   ## FFT
   - FFT analysis is one of the most used techniques when performing signal analysis across several application domains. FFT transforms signals from the time domain to the frequency domain. FFT is the abbreviation of Fast Fourier Transform.
 
-Using FFT analysis, numerous signal characteristics can be investigated to a much greater extent than when inspecting the time domain data. In the frequency domain, the signal characteristics are described by independent frequency components, wherein the time domain it is described by one waveform, containing the sum of all characteristics.
+Exam FFT analysis, numerous signal characteristics can be investigated to a much greater extent than when inspecting the time domain data. In the frequency domain, the signal characteristics are described by independent frequency components, wherein the time domain it is described by one waveform, containing the sum of all characteristics.
 
 ![freqtime-350x244](https://github.com/user-attachments/assets/9db5f2fb-8aa9-4fff-b6fb-a72d01a2c2c4)
 
@@ -200,7 +199,7 @@ It represents the number of bits (binary digits) transmitted per unit of time (u
 
 - Bit rate is typically measured in bits per second (bps) or its multiples
 
-# Cubesat communication:
+Exampat communication:
 ## Satellite orbital Fundamentals
   Upon launch, a satellite or spacecraft is most often placed in one of several particular orbits around Earth – or it might be sent on an interplanetary journey, meaning that it does not orbit Earth anymore, but instead orbits the Sun until its arrival at its final destination. They are of the following types : LEO (Low Earth Orbit), MEO(Medium Earth Orbit), GEO(Geostationary Orbit). Here are is the information you need to know before selecting the orbit: [ESA-TYPES OF ORBITS](https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits)
 
@@ -208,7 +207,7 @@ It represents the number of bits (binary digits) transmitted per unit of time (u
 
 - CubeSats primarily operate in LEO. This is beacause lower energy requirements simplify deployment, LEO provides better communication coverage due to proximity to ground stations and CubeSats can transmit data more efficiently at shorter distances.
   
- ## Minimum payload
+ ## Minimal payload (An example) 
    -  The payload of a satellite refers to the part that gives it its primary function or purpose. Essentially, the payload is what performs the specific tasks or functions desired from the satellite. For instance, in communication satellites, the payload includes antennas, receivers, and transmitters that facilitates communication.Given below is the minimal payload for a Cubesat.
       
    ![minimumpayload](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/3ebc7d27-b1f6-412e-ae19-192caabe2b92)
@@ -217,7 +216,7 @@ It represents the number of bits (binary digits) transmitted per unit of time (u
      [FUNCTIONS](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FAshritaSahoo%2FSIT-CUBESAT-AS%2Fmain%2FCUBESAT%2520PARTS%2520AND%2520FUNCTIONS.docx&wdOrigin=BROWSELINK)
    - In general minimum payload consists of a power management system, an on-board computer and a communication system.
 
-## CubeSat Architecture
+## CubeSat Architecture (An example) 
 
 ![Cubesat architecture](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/assets/174847576/4f5c2992-2749-4cb4-93ea-7d2e4c85b45a)
 
