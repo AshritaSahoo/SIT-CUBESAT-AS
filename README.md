@@ -370,11 +370,15 @@ Write and execute a C-code to blink an LED on the dev board.
 
 ![WhatsApp Image 2024-07-13 at 11 11 49_1466db4e](https://github.com/user-attachments/assets/20a0eda7-afc3-4661-b1f4-7770e8d21ce3)
 
+Code for the above: [Code](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/blob/main/LABS/ARDUINO/Lab1)
+
 # Lab 2: Intro to GPIO programming
 
 In this Lab exercise, students learn to configure a GPIO as an output and control an LED with it.
 ![Esp32-pin-description-Recommended-reading-ESP32-Pinout-Reference-Which-GPIO-pins-should_Q640](https://github.com/user-attachments/assets/f8ba5036-30ea-4cb7-913b-a693c809754e)
 ![WhatsApp Image 2024-07-13 at 11 11 49_e7fc46cb](https://github.com/user-attachments/assets/98ad1692-089e-41a2-ac9c-d09613b1d226)
+
+Code for the above: [Code](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/blob/main/LABS/ARDUINO/Lab1) 
 
 # Lab 3: Dimming LED using PWM
 
@@ -402,6 +406,8 @@ In this exercise we are going to use the ESP32 to control the light intensity of
      | Resistance in the circuit | 105 Ohms |
 
 Write a program to control the LED intensity using Pulse-Width Modulation (PWM).
+
+
 # Lab 4: Dimming multiple LEDs
 ![WhatsApp Image 2024-07-13 at 11 11 49_1466db4e](https://github.com/user-attachments/assets/43dfacc6-04e9-4e2f-a608-0137bfc2e2a0)
 
