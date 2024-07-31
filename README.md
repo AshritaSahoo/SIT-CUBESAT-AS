@@ -805,3 +805,29 @@ Tiny GS (Tiny Ground Station) is an open-source global network of ground station
 
 Here is the information about all the packets we received.[Packets](https://github.com/AshritaSahoo/SIT-CUBESAT-AS/blob/main/PACKETS.xlsx)
 
+
+
+# Resources
+## Datasheets/AppNotes
+  - [Datasheet SX127X](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/Datasheet-SX1276-7-8-9_W_APP_V7.pdf)
+  - [Application Note AN1200-22](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/AN1200_22_Semtech_LoRa_Basics_v2_STD.pdf): LoRa Basics: This application note covers the basics of LoRa Modulation including spread-spectrum communication and LoRa spread spectrum.
+- [Ai Thinker's LoRa Radio Module RA-02](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/AiThinkerRA02.md) is RF radio module based on the Semtech's SX127X transceiver chip. This module will be used for all the satellite communication Lab exercises as well as the [tinyGS](https://tinygs.com/) ground station. This page provides the basic information about the module.
+1. [Datasheet RA-02](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/datasheet-LoRaModule-RA02-v1_1.pdf): LoRa modeule: Ai Thinker's LoRa Radio Module RA-02
+2. [Datasheet ESP32 SoC](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/Datasheet-ESP32.pdf)
+3. [Datasheet ESP32 WROOM32E Module](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/Datasheet-ESP32-WROOM32E.pdf)
+4. [Engineering Reference Manual ESP32](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/esp32_technical_reference_manual_en.pdf)
+- LoRa Library for ESP32 firmware development:
+ 1. [LoRa Library GitHub](https://github.com/sandeepmistry/arduino-LoRa)
+ 2. [LoRa Arduino Library Reference](https://www.arduino.cc/reference/en/libraries/lora)
+
+
+## Literature
+Rappaport, "Wireless Communication Principles", PHI, 2002 (Link : Chap5: Modulation techniques for Mobile Radio 5.4 Digital Modulation technique (p-220) 5.10 SPread spectrum Modulation Technique
+
+Xiong, "Digital Modulation Techniques", Artech, 2006 (Link)
+
+Siwiak, Bahreini, "Radiowave Propagation and Antennas", Artech, 2007 (Link ( - Chap4: Radio Frequency Spectrum - p 99, - Chap5: Comm using Earth-Orbiting Satellites.)
+
+Balanis, C, "Antenna Thoery" Wiley, 2005 (Link)
+
+NASA CubeSat Launch Initiative (NCSLI), CubeSat 101: Basic Concepts and Processes for First-Time CubeSat Developers, Oct 2017 (PDF)
