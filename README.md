@@ -772,7 +772,7 @@ Post-Processing: Allows for in-depth analysis of results, including gain, radiat
 # Lab 15: Physical design of Dipole and V-dipole antennas
 ![WhatsApp Image 2024-07-05 at 15 33 26_f1340ef6](https://github.com/user-attachments/assets/8a7c26d3-d262-4b83-b1e1-44694de1d695)
 
-Tune it to 433MHz with the help of NanoVNA-A Portable VNA Antenna Analyzer Kit with 10KHz-1.5GHz, 2.8 Inch Digital LCD Display Touching Screen Standing Wave Measuring Instrument.
+Tune it to 433MHz with the help of NanoVNA-A Portable VNA(Vector Network Analyzer) Antenna Analyzer Kit with 10KHz-1.5GHz, 2.8 Inch Digital LCD Display Touching Screen Standing Wave Measuring Instrument.
 
 CM Example new : Loaded dipole in free space CM antenna design.txt CE ' End of comment '
 
